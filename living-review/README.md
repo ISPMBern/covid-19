@@ -1,2 +1,2 @@
 # LivingSystematicReview
-[Visit out project website](http://zikaproject.github.io/LivingSystematicReview)
+[Visit out project website](http://ispmbern.github.io/covid-19/livingreviews)
