@@ -15,6 +15,8 @@ The [Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.
 * [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en/novel-coronavirus-china)
 * [Swiss Federal Office for Public Health](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov.html)
 * [CIDRAP - Center for Infectious Disease Research and Policy](http://www.cidrap.umn.edu/covid-19)
+* [MIDAS 2019 Novel Coronavirus Repository](https://github.com/midas-network/COVID-19)
+* [CEID 2019 Novel Coronavirus Tracker](http://2019-coronavirus-tracker.com/index.html)
 
 ## Scientific publications
 * Riou, J. and Althaus, C. L. (2020). [Pattern of early human-to-human transmission of wuhan 2019 novel coronavirus (2019-ncov), December 2019 to January 2020.](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058) Euro Surveill, 25(4).
