@@ -22,14 +22,13 @@ The [Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.
 ## Media coverage
 
 ### Television
-* SRF - Einstein (13 February 2020): [Corona-Virus: «Das Potenzial einer Pandemie besteht»](https://www.srf.ch/kultur/wissen/interview-mit-epidemiologen-corona-virus-das-potenzial-einer-pandemie-besteht?ns_source=mobile&srg_sm_medium=tw)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-mCVmOO1g-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* SRF - Einstein (13 February 2020): [Corona-Virus: «Das Potenzial einer Pandemie besteht»](https://www.srf.ch/kultur/wissen/interview-mit-epidemiologen-corona-virus-das-potenzial-einer-pandemie-besteht?ns_source=mobile&srg_sm_medium=tw)
 * TeleZüri - TalkTäglich (27 January 2020): [Coronavirus auf dem Vormarsch](https://www.telezueri.ch/talktaeglich/coronavirus-auf-dem-vormarsch-136226159)
 
 ### Radio
 * RTS (4 February 2020): [La vitesse de propagation du coronavirus](https://pages.rts.ch/la-1ere/programmes/cqfd/04-02-2020)
 * NPR (3 February 2020): [Why The World Cares More About The New Coronavirus Than The Flu](https://www.npr.org/sections/goatsandsoda/2020/02/03/802392420/why-the-response-to-the-new-coronavirus-has-been-so-aggressive?utm_campaign=storyshare&utm_source=twitter.com&utm_medium=social)
-<iframe src="https://www.npr.org/player/embed/802392420/802392421" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
 * Neo1 (31 January 2020): [Coronavirus: Berner Forscher machen sich ein Bild der Krankheit](https://www.neo1.ch/news/news/newsansicht/datum/2020/02/01/coronavirus-berner-forscher-machen-sich-ein-bild-der-krankheit.html)
 * SRF - Echo der Zeit (28 January 2020): [Corona-Virus verbreitet sich ähnlich wie Grippe](https://www.srf.ch/sendungen/echo-der-zeit/trumps-friedensplan-fuer-den-nahen-osten)
 
