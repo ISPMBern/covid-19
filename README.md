@@ -2,7 +2,7 @@
 
 > "The transmission characteristics of COVID-19 appear to be of similar magnitude to pandemic influenza, indicating the risk of global spread."
 
-Julien Riou, PhD, and Christian Althaus, PhD
+*-Julien Riou, PhD, and Christian Althaus, PhD*
 
 ## About
 On 31 December 2019, the World Health Organization was notified about a cluster of pneumonia of unknown origin in the city of Wuhan, China. Chinese authorities later identified a novel coronavirus (SARS-CoV-2) as the causative agent of the outbreak. As of 19 February 2020, the coronavirus disease 2019 (COVID-19) outbreak has resulted in 75,204 confirmed cases and 2,009 deaths globally.
