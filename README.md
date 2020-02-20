@@ -14,8 +14,8 @@ The [Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.
 * [Swiss Federal Office for Public Health](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov.html)
 * [CIDRAP - Center for Infectious Disease Research and Policy](http://www.cidrap.umn.edu/covid-19)
 
-## Publications
-1. Riou, J. and Althaus, C. L. (2020). [Pattern of early human-to-human transmission of wuhan 2019 novel coronavirus (2019-ncov), December 2019 to January 2020.](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058) Euro Surveill, 25(4).
+## Scientific publications
+* Riou, J. and Althaus, C. L. (2020). [Pattern of early human-to-human transmission of wuhan 2019 novel coronavirus (2019-ncov), December 2019 to January 2020.](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058) Euro Surveill, 25(4).
 
 ## Media coverage
 
