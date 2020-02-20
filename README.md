@@ -23,8 +23,9 @@ The [Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.
 
 ## Media coverage
 
-### Television
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-mCVmOO1g-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Television
 * SRF - Einstein (13 February 2020): [Corona-Virus: «Das Potenzial einer Pandemie besteht»](https://www.srf.ch/kultur/wissen/interview-mit-epidemiologen-corona-virus-das-potenzial-einer-pandemie-besteht?ns_source=mobile&srg_sm_medium=tw)
 * TeleZüri - TalkTäglich (27 January 2020): [Coronavirus auf dem Vormarsch](https://www.telezueri.ch/talktaeglich/coronavirus-auf-dem-vormarsch-136226159)
 
