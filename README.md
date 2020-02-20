@@ -3,6 +3,8 @@
 ## About
 The [Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.ch) at the [University of Bern](https://www.unibe.ch) provides information and resources about the ongoing COVID-19 epidemic.
 
+![](images/covid19.png)
+
 ## Ongoing projects
 * [Living systematic review on COVID-19](living-review/)
 * [Estimating case fatality ratio of COVID-19](https://github.com/calthaus/ncov-cfr)
