@@ -44,6 +44,7 @@ During this international public health emergency, the [Institute of Social and 
 * SRF - Echo der Zeit (28 January 2020): [Corona-Virus verbreitet sich ähnlich wie Grippe](https://www.srf.ch/sendungen/echo-der-zeit/trumps-friedensplan-fuer-den-nahen-osten)
 
 ### Print/Online
+* NZZ (26 February 2020): [Experte zum Corona-Ausbruch: << Man muss jetzt nicht die hale Schweiz unter Quarantäne stellen>>](https://www.nzz.ch/schweiz/experte-zum-corona-ausbruch-man-muss-jetzt-nicht-die-halbe-schweiz-unter-quarantaene-stellen-ld.1542713)
 * SonntagsZeitung (23 January 2020): [Experten-Interview: «Möglicherweise ist das Virus schon in der Schweiz»](https://www.tagesanzeiger.ch/sonntagszeitung/moeglicherweise-ist-das-virus-schon-hier/story/15126777)
 * NZZ (14 February 2020): [Wann erreicht die Epidemie ihren Höhepunkt?](https://www.nzz.ch/wissenschaft/wann-erreicht-die-epidemie-ihren-hoehepunkt-ld.1540284?reduced=true)
 * Tages-Anzeiger (30 January 2020): [Coronavirus in Bayern: «Das sind sehr beunruhigende Nachrichten»](https://www.tagesanzeiger.ch/wissen/sehr-beunruhigend-dass-das-virus-ansteckend-ist-bevor-jemand-erkrankt/story/31870164)
