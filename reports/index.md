@@ -19,3 +19,4 @@
 * [03-02-2020](reports/CoronavirusNews_03.02.pdf)
 * [31-01-2020](reports/CoronavirusNews_31.01.pdf)
 * [30-01-2020](reports/CoronavirusNews_30.01.pdf)
+* [30-01-2020](/CoronavirusNews_30.01.pdf)
