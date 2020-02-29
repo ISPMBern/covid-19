@@ -38,6 +38,7 @@ During this international public health emergency, the [Institute of Social and 
 * TeleZüri - TalkTäglich (27 January 2020): [Coronavirus auf dem Vormarsch](https://www.telezueri.ch/talktaeglich/coronavirus-auf-dem-vormarsch-136226159)
 
 ### Radio
+* RTS (4 February 2020): [Coronavirus: la propagation s'accélère](https://www.rts.ch/play/radio/cqfd/audio/coronavirus-la-propagation-saccelere?id=11089420)
 * RTS (4 February 2020): [La vitesse de propagation du coronavirus](https://pages.rts.ch/la-1ere/programmes/cqfd/04-02-2020)
 * NPR (3 February 2020): [Why The World Cares More About The New Coronavirus Than The Flu](https://www.npr.org/sections/goatsandsoda/2020/02/03/802392420/why-the-response-to-the-new-coronavirus-has-been-so-aggressive?utm_campaign=storyshare&utm_source=twitter.com&utm_medium=social)
 * Neo1 (31 January 2020): [Coronavirus: Berner Forscher machen sich ein Bild der Krankheit](https://www.neo1.ch/news/news/newsansicht/datum/2020/02/01/coronavirus-berner-forscher-machen-sich-ein-bild-der-krankheit.html)
@@ -45,7 +46,8 @@ During this international public health emergency, the [Institute of Social and 
 
 ### Print/Online
 
-* NZZ (26 February 2020): [Experte zum Corona-Ausbruch: «Man muss jetzt nicht die hale Schweiz unter Quarantäne stellen»](https://www.nzz.ch/schweiz/experte-zum-corona-ausbruch-man-muss-jetzt-nicht-die-halbe-schweiz-unter-quarantaene-stellen-ld.1542713)
+* NZZ (26 February 2020): [Experte zum Corona-Ausbruch: «Man muss jetzt nicht die halbe Schweiz unter Quarantäne stellen»](https://www.nzz.ch/schweiz/experte-zum-corona-ausbruch-man-muss-jetzt-nicht-die-halbe-schweiz-unter-quarantaene-stellen-ld.1542713)
+* Le Temps (26 February 2020): [Patient zéro, super-propagateur et taux de transmission: le point sur les interrogations actuelles autour de la propagation du coronavirus](https://www.letemps.ch/sciences/patient-zero-superpropagateur-taux-transmission-point-interrogations-actuelles-autour)
 * SonntagsZeitung (23 January 2020): [Experten-Interview: «Möglicherweise ist das Virus schon in der Schweiz»](https://www.tagesanzeiger.ch/sonntagszeitung/moeglicherweise-ist-das-virus-schon-hier/story/15126777)
 * NZZ (14 February 2020): [Wann erreicht die Epidemie ihren Höhepunkt?](https://www.nzz.ch/wissenschaft/wann-erreicht-die-epidemie-ihren-hoehepunkt-ld.1540284?reduced=true)
 * Tages-Anzeiger (30 January 2020): [Coronavirus in Bayern: «Das sind sehr beunruhigende Nachrichten»](https://www.tagesanzeiger.ch/wissen/sehr-beunruhigend-dass-das-virus-ansteckend-ist-bevor-jemand-erkrankt/story/31870164)
