@@ -38,7 +38,7 @@ During this international public health emergency, the [Institute of Social and 
 * TeleZüri - TalkTäglich (27 January 2020): [Coronavirus auf dem Vormarsch](https://www.telezueri.ch/talktaeglich/coronavirus-auf-dem-vormarsch-136226159)
 
 ### Radio
-* RTS (4 February 2020): [Coronavirus: la propagation s'accélère](https://www.rts.ch/play/radio/cqfd/audio/coronavirus-la-propagation-saccelere?id=11089420)
+* RTS (27 February 2020): [Coronavirus: la propagation s'accélère](https://www.rts.ch/play/radio/cqfd/audio/coronavirus-la-propagation-saccelere?id=11089420)
 * RTS (4 February 2020): [La vitesse de propagation du coronavirus](https://pages.rts.ch/la-1ere/programmes/cqfd/04-02-2020)
 * NPR (3 February 2020): [Why The World Cares More About The New Coronavirus Than The Flu](https://www.npr.org/sections/goatsandsoda/2020/02/03/802392420/why-the-response-to-the-new-coronavirus-has-been-so-aggressive?utm_campaign=storyshare&utm_source=twitter.com&utm_medium=social)
 * Neo1 (31 January 2020): [Coronavirus: Berner Forscher machen sich ein Bild der Krankheit](https://www.neo1.ch/news/news/newsansicht/datum/2020/02/01/coronavirus-berner-forscher-machen-sich-ein-bild-der-krankheit.html)
