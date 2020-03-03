@@ -24,3 +24,4 @@
 * [03-02-2020](/CoronavirusNews_03.02.pdf)
 * [31-01-2020](/CoronavirusNews_31.01.pdf)
 * [30-01-2020](/CoronavirusNews_30.01.pdf)
+* [29-01-2020](/CoronavirusNews_29.01.pdf)
