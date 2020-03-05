@@ -40,7 +40,7 @@ Searchpubmed<-function(query){
 ```
 
 ## medRxiv and bioRxiv
-Here, we opted for a very simple solution. We grab all DOIs of the last 75 record, and requiry these to get the complete citation data:
+Here, we opted for a very simple solution. We grab all DOIs of the last 75 record, and requery these to get the complete citation data:
 
 ```R
 prep.doi.biorxiv<-function(population){
