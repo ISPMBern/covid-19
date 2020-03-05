@@ -1,3 +1,5 @@
+index: [[**HOME**](index.html)] [**Collecting data**] [[**Deduplication**](deduplication.html)]
+
 # Getting data from different sources
 
 ## Defining the data format
