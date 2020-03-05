@@ -1,3 +1,5 @@
+index: [**HOME**] [**Collecting data**](collectingdata.html) [**Deduplication**](deduplication.html)
+
 # Welcome to our Living Systematic Review on COVID-19
 
 On this website, we explain how we set up a *Living Systematic Review* that can:
