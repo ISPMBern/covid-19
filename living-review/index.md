@@ -1,4 +1,4 @@
-index: [**HOME**] [**Collecting data**](collectingdata.html) [**Deduplication**](deduplication.html)
+index: [**HOME**] [[**Collecting data**](collectingdata.html)] [[**Deduplication**](deduplication.html)]
 
 # Welcome to our Living Systematic Review on COVID-19
 
