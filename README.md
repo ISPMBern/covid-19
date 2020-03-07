@@ -7,14 +7,16 @@
 ![](images/covid19.png)
 
 ## About
-On 31 December 2019, the World Health Organization was notified about a cluster of pneumonia of unknown origin in the city of Wuhan, China. Chinese authorities later identified a novel coronavirus (SARS-CoV-2) as the causative agent of the outbreak. As of 24 February 2020, the coronavirus disease 2019 (COVID-19) outbreak has resulted in 79,331 confirmed cases and 2,595 deaths globally. In Europe, Italy currently experiences a larger outbreak with 229 confirmed cases and 7 deaths. There is a high risk that COVID-19 will continue to spread further in Europe and that the epidemic also reaches Switzerland.
+On 31 December 2019, the World Health Organization was notified about a cluster of pneumonia of unknown origin in the city of Wuhan, China. Chinese authorities later identified a novel coronavirus (SARS-CoV-2) as the causative agent of the outbreak. As of 6 March 2020, the coronavirus disease 2019 (COVID-19) outbreak has resulted in 98,192 confirmed cases and 3,380 deaths globally. Several European countries including Switzerland currently experience large outbreaks.
 
 During this international public health emergency, the [Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.ch) at the [University of Bern](https://www.unibe.ch) provides information and resources about the ongoing COVID-19 epidemic for scientists, public health experts, journalists and the public.
 
 ## Ongoing projects
 * [Living systematic review on COVID-19](living-review/)
-* [Estimating case fatality ratio of COVID-19](https://github.com/calthaus/ncov-cfr)
 * [Daily reporting on COVID-19](reports/)
+
+## Completed projects
+* [Estimating case fatality ratio of COVID-19](https://github.com/calthaus/ncov-cfr)
 
 ## Links to other resources
 * [World Health Organization (WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
@@ -26,14 +28,16 @@ During this international public health emergency, the [Institute of Social and 
 * [CEID 2019 Novel Coronavirus Tracker](http://2019-coronavirus-tracker.com/index.html)
 
 ## Scientific publications
-* Riou, J. and Althaus, C. L. (2020). [Pattern of early human-to-human transmission of wuhan 2019 novel coronavirus (2019-ncov), December 2019 to January 2020.](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058) Euro Surveill, 25(4).
+1. Riou J, Hauser A, Counotte MJ, Althaus CL. [Adjusted age-specific case fatality ratio during the COVID-19 epidemic in Hubei, China, January and February 2020](https://doi.org/10.1101/2020.03.04.20031104). medRxiv. 2020;03.04.20031104.
+2. Riou J, Althaus CL. [Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058). Euro Surveill. 2020 Jan;25(4).
 
 ## Media coverage
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-mCVmOO1g-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Television
-* TeleZüri - TalkTäglich (24 Februarz 2020): [Kommt das Coronavirus in die Schweiz?](https://www.telezueri.ch/talktaeglich/kommt-das-coronavirus-in-die-schweiz-136362081)
+* RTS - Forum (6 March 2020): [L’analyse de Julien Riou sur l’évolution du coronavirus en Suisse](https://www.rts.ch/play/tv/forum-video/video/lanalyse-de-julien-riou-sur-levolution-du-coronavirus-en-suisse-video?id=11146010)
+* TeleZüri - TalkTäglich (24 February 2020): [Kommt das Coronavirus in die Schweiz?](https://www.telezueri.ch/talktaeglich/kommt-das-coronavirus-in-die-schweiz-136362081)
 * SRF - Einstein (13 February 2020): [Corona-Virus: «Das Potenzial einer Pandemie besteht»](https://www.srf.ch/kultur/wissen/interview-mit-epidemiologen-corona-virus-das-potenzial-einer-pandemie-besteht?ns_source=mobile&srg_sm_medium=tw)
 * TeleZüri - TalkTäglich (27 January 2020): [Coronavirus auf dem Vormarsch](https://www.telezueri.ch/talktaeglich/coronavirus-auf-dem-vormarsch-136226159)
 
