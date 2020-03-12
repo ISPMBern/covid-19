@@ -27,7 +27,13 @@ Fill out the three items, and click on the submit button.
 
 That's it. Your decision has been submitted to the REDCap server, and the server response is shown on the top of the page:
 
- ![record form](images/response_text.png)
+ ![response text](images/response_text.png)
+ 
+If you have hard time answering the questions, or you feel information is missing (paper in a language you don't understand, or where google translate is not making any sense), you can click the 'IDONTKNOW' button:
+
+![IDONTKNOWbutton](images/idontknow.png)
+
+This marks the item incomplete and flags it up for discussion. Try to avoid using this option.
 
 # FAQ
 
@@ -49,5 +55,10 @@ REDCap keeps track of all the changes. We can see the progress using the REDCap 
 
 ## Where is the UNDO button?
 At the moment is there none. If you think you made a mistake, scroll to the top of the screening page and copy the response text, and send me an email. 
+
+## I don't know what to do?!?!
+OK. that happens. Records might be incomplete, or you might not feel confident in making a decision. Use the checkbox 'IDONTKNOW'. We will resolve the issue.
+
+![IDONTKNOWbutton](images/idontknow.png)
 
 
