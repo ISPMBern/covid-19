@@ -61,4 +61,9 @@ OK. that happens. Records might be incomplete, or you might not feel confident i
 
 ![IDONTKNOWbutton](images/idontknow.png)
 
+## I get a message that there is no data?
+It could happen that you get a message like the one below, telling you that there is no data. This means you have finished all your tasks and new tasks have not been assigned yet. Congratulations on completing your work!
+
+![nodata](images/nodatatoshow.png)
+
 
