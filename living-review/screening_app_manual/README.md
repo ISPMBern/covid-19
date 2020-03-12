@@ -4,7 +4,7 @@
 We are conducting a living systematic review on COVID-19/Sars-CoV-2. We collect publications and we screen them to preclassify information. 
 
 * We keep track of the accumulation of evidence over time
-* We will use observational studies to Parameterize models
+* We will use observational studies to parameterize models
 
 Because evidence is accumulating rapidly, we have developed a workflow that allows rapid screening and classification of papers. Part of this workflow is a shiny app, where multiple users can perform their assigned screening tasks. 
 
