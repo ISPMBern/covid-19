@@ -1,5 +1,13 @@
 # How to use the screening app
 
+## The purpose of the app
+We are conducting a living systematic review on COVID-19/Sars-CoV-2. We collect publications and we screen them to preclassify information. 
+
+* We keep track of the accumulation of evidence over time
+* We will use observational studies to Parameterize models
+
+Because evidence is accumulating rapidly, we have developed a workflow that allows rapid screening and classification of papers. Part of this workflow is a shiny app, where multiple users can perform their assigned screening tasks. 
+
 ## Login
 To be able to login, you should have been provided a username (initials) and a code. Your username should be available in the drop-down menu:
 
