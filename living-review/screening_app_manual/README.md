@@ -19,7 +19,7 @@ To be able to login, you should have been provided a username (initials) and a c
 
 ![Enter code](images/login_success.png)
 
-If your login is successful, the response text will display 'login success:TRUE'. 
+If your login is successful, the response text will display 'login success:TRUE'.
  
 ## Screening
 
@@ -44,6 +44,8 @@ If you have hard time answering the questions, or you feel information is missin
 This marks the item incomplete and flags it up for discussion. Try to avoid using this option.
 
 # FAQ
+## A paper is not on COVID-19/Sars-CoV-2, what do I do?
+These papers are selected out. We do not collect information. As the COVID19 checkbox is unselected by default, simply submit the record and it has been registered.
 
 ## How is information saved?
 As soon as you click a submit button, the information is sent to REDCap. The response text on the top of the page confirms that the communication with the server was successful. 
