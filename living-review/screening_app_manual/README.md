@@ -44,6 +44,9 @@ If you have hard time answering the questions, or you feel information is missin
 This marks the item incomplete and flags it up for discussion. Try to avoid using this option.
 
 # FAQ
+## What are the inclusion criteria?
+At this moment, we want to include all research on COVID-19/Sars-CoV-2. 
+
 ## A paper is not on COVID-19/Sars-CoV-2, what do I do?
 These papers are selected out. We do not collect information. As the COVID19 checkbox is unselected by default, simply submit the record and it has been registered.
 
