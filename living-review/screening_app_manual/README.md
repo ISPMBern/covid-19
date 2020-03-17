@@ -50,6 +50,9 @@ At this moment, we want to include all research on COVID-19/Sars-CoV-2.
 ## A paper is not on COVID-19/Sars-CoV-2, what do I do?
 These papers are selected out. We do not collect information. As the COVID19 checkbox is unselected by default, simply submit the record and it has been registered.
 
+## Help, the paper I need to screen is in a language I don't understand?!
+Please use google translate to resolve this. If this does not work, use the IDONTKNOW button.
+
 ## How is information saved?
 As soon as you click a submit button, the information is sent to REDCap. The response text on the top of the page confirms that the communication with the server was successful. 
 
