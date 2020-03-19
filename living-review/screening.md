@@ -9,3 +9,4 @@ index: [[**HOME**](index.html)] [[**Collecting data**](collectingdata.html)] [[*
 * Allows us to track the accumulation of evidence over time (similar to [Counotte et al.](https://www.medrxiv.org/content/10.1101/2020.03.16.20036806v1))
 
 ## Work distribution: using a 'crowd'
+![screening workflow](images/workflow_crowd.png)
