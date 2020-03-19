@@ -1,4 +1,4 @@
-index: [[**HOME**](index.html)] [[**Collecting data**](collectingdata.html)] [**Deduplication**]
+index: [[**HOME**](index.html)] [[**Collecting data**](collectingdata.html)] [**Deduplication**] [[**Screening**](screening.html)]
 
 # Deduplication of bibliographic records
 
@@ -39,7 +39,7 @@ Pubmed:  726
 Here, we compare the performance of our deduplication algorithm implemented in R with the 'gold standard': Deduplication in Endnote according to the protocol of [Bramer et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915647/). 
 For every record, we assess whether it was identified as part of a duplicate or as a unique record. We compare this against the Bramer method:
 
-| our algorithm | Bramer\\Duplicate |  Bramer\\Unique  |
+| our algorithm | Bramer Duplicate |  Bramer Unique  |
 |---------------|-------------------|------------------|
 | Duplicate     | true positive     | false positive   |
 | Unique        | false negative    | true negative    |

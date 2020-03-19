@@ -1,4 +1,4 @@
-index: [[**HOME**](index.html)] [**Collecting data**] [[**Deduplication**](deduplication.html)]
+index: [[**HOME**](index.html)] [**Collecting data**] [[**Deduplication**](deduplication.html)] [[**Screening**](screening.html)]
 
 # Getting data from different sources
 
