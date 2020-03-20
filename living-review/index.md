@@ -22,3 +22,6 @@ We start by [**collecting data**](collectingdata.html) from different data sourc
 
 Once we have clean reference data from the different sources, we perform [**deduplication**](deduplication.html). These deduplicated data are imported into a central database, where [**screening**](screening.html) takes place. 
 
+## Current version of the data
+[Here](https://github.com/ZikaProject/COVID_references) you find the most current version of the reference data.
+An annotated 'pre-screened' dataset will become available early next week (24.03.2020).
