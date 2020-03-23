@@ -23,5 +23,7 @@
 | abstract      | Abstract text                                             |
 | source        | 1, MedRxiv; 2, BioRxiv; 3, EMBASE; 4, PubMed              |
 | strategydate  | date the search was run (DD-MM-YYYY)                      |
+| studytype1    | study design, see [this page](https://github.com/ZikaProject/COVID_references) for categories |
+| references_complete | 0, not screened; 1, screened but not yet verified; 2, screened and verified.| 
 
-Created with the kind help of [https://www.tablesgenerator.com/markdown_tables](https://www.tablesgenerator.com/markdown_tables)
+
