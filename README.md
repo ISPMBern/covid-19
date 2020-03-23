@@ -13,7 +13,7 @@ During this international public health emergency, the [Institute of Social and 
 
 ## Ongoing projects
 * [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
-* [Living systematic review on COVID-19](living-review/)
+* [Living Evidence on COVID-19](living-review/)
 * [Daily reporting on COVID-19](reports/)
 
 ## Completed projects
