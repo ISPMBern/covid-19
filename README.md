@@ -12,6 +12,7 @@ On 31 December 2019, the World Health Organization was notified about a cluster 
 During this international public health emergency, the [Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.ch) at the [University of Bern](https://www.unibe.ch) provides information and resources about the ongoing COVID-19 epidemic for scientists, public health experts, journalists and the public.
 
 ## Ongoing projects
+* [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
 * [Living systematic review on COVID-19](living-review/)
 * [Daily reporting on COVID-19](reports/)
 
