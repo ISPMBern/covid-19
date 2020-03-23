@@ -1,7 +1,7 @@
 # How to use the screening app
 
 ## The purpose of the app
-We are conducting a living systematic review on COVID-19/Sars-CoV-2. We collect publications and we screen them to preclassify information. 
+We are curating evidence on COVID-19/Sars-CoV-2. We collect publications and we screen them to preclassify information. 
 
 * We keep track of the accumulation of evidence over time
 * We will use observational studies to parameterize models
