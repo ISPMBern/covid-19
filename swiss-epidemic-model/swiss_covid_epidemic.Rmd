@@ -1,7 +1,7 @@
 ---
 title: "Real-time modeling and projections of the COVID-19 epidemic in Switzerland"
 author: "Christian L. Althaus, Institute of Social and Preventive Medicine, University of Bern, Switzerland"
-date: "23 February 2020"
+date: "`r format(Sys.time(), '%d %B %Y')`"
 output: html_document
 ---
 
@@ -91,20 +91,20 @@ fit_ci <- confint(fit)
 
 ***
 
-#### **Important note: This report provides preliminary results and is work in progress.**
+#### Important note: This report provides preliminary results and is work in progress.
 
 ### Introduction
-Switzerland reported its first case of coronavirus disease 2019 (COVID-19) on 25 Feb 2020. As of `r day(max(reported$date))` `r month(max(reported$date), label = TRUE)` `r year(max(reported$date))`, there are `r max(reported$cum_cases)` reported cases and `r max(reported$cum_deaths)` deaths. Arguably, the reported numbers of cases do not provide a clear picture of the overall epidemic as a significant proportion of particularly mild or asymptomatic cases cannot be diagnosed and will go unreported. We argue that tracking the reported number of deaths provides a better picture of the COVID-19 epidemic in Switzerland. We fit a dynamic transmission model to the daily number of reported deaths in Switzerland, and project different future trajectories as a result of the lockdown 'light' on 17 Mar 2020.
+Switzerland reported its first case of coronavirus disease 2019 (COVID-19) on 25 Feb 2020. As of `r day(max(reported$date))` `r month(max(reported$date), label = TRUE)` `r year(max(reported$date))`, there are `r max(reported$cum_cases)` reported cases and `r max(reported$cum_deaths)` deaths. Arguably, the reported numbers of cases do not provide a clear picture of the overall epidemic as a significant proportion of particularly mild or asymptomatic cases cannot be diagnosed and will go unreported (also see [here](https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html)). Hence, we argue that tracking the reported number of deaths provides a better picture of the COVID-19 epidemic in Switzerland. We fit a dynamic transmission model to the daily number of reported deaths in Switzerland, and project different future trajectories as a result of the lockdown 'light' on 17 Mar 2020.
 
 ### Methods
-We consider a SEIR transmission model with additional compartments for hospitalization and critical care (ICU) (see [R Markdown file](swiss_covid_epidemic.Rmd) and Table). We use a maximum likelihood framework to fit the model to the reported numbers of deaths, assuming the daily numbers of deaths are Poisson distributed. We assume constant uncontrolled transmission until the lockdown and then vary the transmission rate relative to the epidemic spread before the lockdown.
+We consider a SEIR transmission model with additional compartments for hospitalization and critical care (ICU) (see [R Markdown file](swiss_covid_epidemic.Rmd) and Table). We use a maximum likelihood framework to fit the model to the [reported numbers of deaths](swiss_covid_epidemic.csv), assuming the daily numbers of deaths are Poisson distributed. We assume constant uncontrolled transmission until the lockdown and then vary the transmission rate relative to the epidemic spread before the lockdown.
 
 **Table. Parameters of the COVID-19 transmission model.**
 
 Parameter | Value | Source
 --------- | ----- | ------
 Population size of Switzerland | 8.6 million | [Federal Statistical Office](https://www.bfs.admin.ch/bfs/en/home/statistics/population.html)
-Serial interval | 7.5 days | [Li et al.](https://doi.org/10.1056/NEJMoa2001316)
+Generation time | 7.5 days | [Li et al.](https://doi.org/10.1056/NEJMoa2001316)
 Duration of hospitalization for mild and severe cases | 8 days | [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
 Additional duration of hospitalization for critical cases | 8 days | [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
 Proportion hospitalized cases | 5% | Adapted from [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
