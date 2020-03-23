@@ -29,8 +29,9 @@ During this international public health emergency, the [Institute of Social and 
 * [CEID 2019 Novel Coronavirus Tracker](http://2019-coronavirus-tracker.com/index.html)
 
 ## Scientific publications
-1. Riou J, Hauser A, Counotte MJ, Althaus CL. [Adjusted age-specific case fatality ratio during the COVID-19 epidemic in Hubei, China, January and February 2020](https://doi.org/10.1101/2020.03.04.20031104). medRxiv. 2020;03.04.20031104.
-2. Riou J, Althaus CL. [Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058). Euro Surveill. 2020 Jan;25(4).
+1. Salathé M, Althaus CL, Neher R, Stringhini S, Hodcroft E, et al. [COVID-19 epidemic in Switzerland: on the importance of testing, contact tracing and isolation.](https://doi.org/10.4414/smw.2020.20225) Swiss Med Wkly. 2020 Mar 19;150:w20225.
+2. Riou J, Hauser A, Counotte MJ, Althaus CL. [Adjusted age-specific case fatality ratio during the COVID-19 epidemic in Hubei, China, January and February 2020.](https://doi.org/10.1101/2020.03.04.20031104) medRxiv. 2020;03.04.20031104.
+3. Riou J, Althaus CL. [Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020.](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058) Euro Surveill. 2020 Jan;25(4).
 
 ## Media coverage
 
