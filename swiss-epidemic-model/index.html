@@ -12,7 +12,7 @@
 
 <meta name="author" content="Christian L. Althaus, Institute of Social and Preventive Medicine, University of Bern, Switzerland" />
 
-<meta name="date" content="2020-02-23" />
+<meta name="date" content="2020-03-23" />
 
 <title>Real-time modeling and projections of the COVID-19 epidemic in Switzerland</title>
 
@@ -365,22 +365,22 @@ summary {
 
 <h1 class="title toc-ignore">Real-time modeling and projections of the COVID-19 epidemic in Switzerland</h1>
 <h4 class="author">Christian L. Althaus, Institute of Social and Preventive Medicine, University of Bern, Switzerland</h4>
-<h4 class="date">23 February 2020</h4>
+<h4 class="date">23 March 2020</h4>
 
 </div>
 
 
 <hr />
 <div id="important-note-this-report-provides-preliminary-results-and-is-work-in-progress." class="section level4">
-<h4><strong>Important note: This report provides preliminary results and is work in progress.</strong></h4>
+<h4>Important note: This report provides preliminary results and is work in progress.</h4>
 </div>
 <div id="introduction" class="section level3">
 <h3>Introduction</h3>
-<p>Switzerland reported its first case of coronavirus disease 2019 (COVID-19) on 25 Feb 2020. As of 22 Mar 2020, there are 7724 reported cases and 98 deaths. Arguably, the reported numbers of cases do not provide a clear picture of the overall epidemic as a significant proportion of particularly mild or asymptomatic cases cannot be diagnosed and will go unreported. We argue that tracking the reported number of deaths provides a better picture of the COVID-19 epidemic in Switzerland. We fit a dynamic transmission model to the daily number of reported deaths in Switzerland, and project different future trajectories as a result of the lockdown ‘light’ on 17 Mar 2020.</p>
+<p>Switzerland reported its first case of coronavirus disease 2019 (COVID-19) on 25 Feb 2020. As of 22 Mar 2020, there are 7724 reported cases and 98 deaths. Arguably, the reported numbers of cases do not provide a clear picture of the overall epidemic as a significant proportion of particularly mild or asymptomatic cases cannot be diagnosed and will go unreported (also see <a href="https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html">here</a>). Hence, we argue that tracking the reported number of deaths provides a better picture of the COVID-19 epidemic in Switzerland. We fit a dynamic transmission model to the daily number of reported deaths in Switzerland, and project different future trajectories as a result of the lockdown ‘light’ on 17 Mar 2020.</p>
 </div>
 <div id="methods" class="section level3">
 <h3>Methods</h3>
-<p>We consider a SEIR transmission model with additional compartments for hospitalization and critical care (ICU) (see <a href="swiss_covid_epidemic.Rmd">R Markdown file</a> and Table). We use a maximum likelihood framework to fit the model to the reported numbers of deaths, assuming the daily numbers of deaths are Poisson distributed. We assume constant uncontrolled transmission until the lockdown and then vary the transmission rate relative to the epidemic spread before the lockdown.</p>
+<p>We consider a SEIR transmission model with additional compartments for hospitalization and critical care (ICU) (see <a href="swiss_covid_epidemic.Rmd">R Markdown file</a> and Table). We use a maximum likelihood framework to fit the model to the <a href="swiss_covid_epidemic.csv">reported numbers of deaths</a>, assuming the daily numbers of deaths are Poisson distributed. We assume constant uncontrolled transmission until the lockdown and then vary the transmission rate relative to the epidemic spread before the lockdown.</p>
 <p><strong>Table. Parameters of the COVID-19 transmission model.</strong></p>
 <table>
 <colgroup>
@@ -402,7 +402,7 @@ summary {
 <td><a href="https://www.bfs.admin.ch/bfs/en/home/statistics/population.html">Federal Statistical Office</a></td>
 </tr>
 <tr class="even">
-<td>Serial interval</td>
+<td>Generation time</td>
 <td>7.5 days</td>
 <td><a href="https://doi.org/10.1056/NEJMoa2001316">Li et al.</a></td>
 </tr>
