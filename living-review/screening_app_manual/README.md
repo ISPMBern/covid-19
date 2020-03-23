@@ -43,6 +43,16 @@ If you have hard time answering the questions, or you feel information is missin
 
 This marks the item incomplete and flags it up for discussion. Try to avoid using this option.
 
+## Verification
+
+All screened records are verified by a second person. Login/workflow is similar to that of the screening module. Verification decisions are: agreement or disagreement. 
+
+![verification](images/verify_recordform.png)
+
+If you agree with the decisions, click the submit button. If you disagree: uncheck the 'Agreed' checkbox and enter a comment in the textfield with the reason of disagreement. Your initials will be automatically passed to your comment. 
+
+Items that are agreed upon are marked as completed, items that are tagged as disagreed are moved to an incomplete status. 
+
 # FAQ
 ## What are the inclusion criteria?
 At this moment, we want to include all research on COVID-19/Sars-CoV-2. 
