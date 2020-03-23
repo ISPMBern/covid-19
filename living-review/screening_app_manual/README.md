@@ -49,7 +49,7 @@ All screened records are verified by a second person. Login/workflow is similar 
 
 ![verification](images/verify_recordform.png)
 
-If you agree with the decisions, click the submit button. If you disagree: uncheck the 'Agreed' checkbox and enter a comment in the textfield with the reason of disagreement. Your initials will be automatically passed to your comment. 
+If you **agree** with the decisions, click the submit button. If you **disagree**: uncheck the 'Agreed' checkbox and enter a comment in the text field with the reason of disagreement. Your initials will be automatically passed to your comment. 
 
 Items that are agreed upon are marked as completed, items that are tagged as disagreed are moved to an incomplete status. 
 
