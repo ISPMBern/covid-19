@@ -2,8 +2,25 @@ index: [[**HOME**](index.html)] [**Collecting data**] [[**Deduplication**](dedup
 
 # Getting data from different sources
 
-## Defining the data format
+We retrieve data from [EMBASE](http://www.embase.com) via OVID, [MEDLINE](https://www.ncbi.nlm.nih.gov/pubmed/) via PubMed, BioRxiv and MedRxiv.
 
+## Search terms
+
+MEDLINE:
+
+``("Wuhan coronavirus" [Supplementary Concept] OR "COVID-19" OR "2019 ncov"[tiab] OR (("novel coronavirus"[tiab] OR "new coronavirus"[tiab]) AND (wuhan[tiab] OR 2019[tiab])) OR 2019-nCoV[All Fields] OR (wuhan[tiab] AND coronavirus[tiab])))))``
+
+EMBASE:
+
+`` ncov OR (wuhan AND corona) OR COVID``
+
+BioRxiv/MedRxiv:
+
+``ncov or corona or wuhan or COVID``
+
+
+## Defining the data format
+[Here](datastructure.html) we describe how the data is formatted. 
 
 ## PubMed 
 PubMed is accessible through the package [RISMed](https://cran.r-project.org/web/packages/RISmed/RISmed.pdf). We still need to process the data to a prespecified format.
