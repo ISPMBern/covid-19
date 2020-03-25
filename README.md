@@ -17,7 +17,7 @@ During this international public health emergency, the [Institute of Social and 
 * [Daily reporting on COVID-19](reports/)
 
 ## Completed projects
-* [Estimating case fatality ratio of COVID-19](https://github.com/calthaus/ncov-cfr)
+* [Estimating case fatality ratio of COVID-19 from observed cases outside China](https://github.com/calthaus/ncov-cfr)
 
 ## Links to other resources
 * [World Health Organization (WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
