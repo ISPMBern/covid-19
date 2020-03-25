@@ -84,7 +84,7 @@ fixed <- c(sigma = 1/2.6,
            control = 21) # Lockdown 'light' 21 days after occurence of first case (17 March 2020)
 free <- c(seed = log(30),
           R_0 = log(2.2),
-          kappa = qlogis(0.9))
+          kappa = qlogis(0.5))
 fit <- mle2(nll, start = as.list(free), fixed = as.list(fixed), method = "Nelder-Mead")
 fit_ci <- confint(fit)
 ```
@@ -115,7 +115,7 @@ Basic reproduction number $R_0$ | Estimated | -
 ### Results
 Before the lockdown in Switzerland, we estimate the basic reproduction number $R_0$ of COVID-19 at `r round(trans(coef(fit))[["R_0"]], 2)` (95% confidence interval: `r round(exp(fit_ci[2]), 2)` - `r round(exp(fit_ci[5]), 2)`). This value of $R_0$ requires transmission to be reduced by at least `r 1e2*round(1 - 1/trans(coef(fit))[["R_0"]], 2)`% (1 - 1/$R_0$) in order to drop the effective reproduction number $R$ below the critical threshold of 1.
 
-In order to project future epidemic trajectories, we consider the following scenarios of reduced transmission as a result of the lockdown on 17 March 2020: 100% (no reduction in transmission), 75%, 50%, 40%, 30%, 20%, 10%, and 0% (complete interruption of transmission). The model suggests that the necessary ICU capacities in Switzerland will grow beyond 1000 in early  April if the current lockdown in Switzerland does not reduce transmission by more than 70% (Figure).
+In order to project future epidemic trajectories, we consider the following scenarios of reduced transmission as a result of the lockdown on 17 March 2020: 100% (no reduction in transmission), 75%, 50%, 40%, 30%, 20%, 10%, and 0% (complete interruption of transmission). The model suggests that the necessary ICU capacities in Switzerland will stay below 1000 during early  April if the current lockdown in Switzerland reduces transmission by 70% or more (Figure).
 
 ```{r scenarios, echo=FALSE, fig.width=9, fig.height=6}
 # Run different control scenarios
