@@ -6,6 +6,25 @@ We retrieve data from [EMBASE](http://www.embase.com) via OVID, [MEDLINE](https:
 
 ## Search terms
 
+
+### 26.03.2020-now
+
+MEDLINE:
+
+``(2019 novel coronavirus disease OR 2019 novel coronavirus infection OR 2019-ncov disease OR 2019-ncov infection OR coronavirus disease 2019 OR coronavirus disease-19 OR coronavirus* OR coronovirus* OR coronavirus Infections OR Wuhan coronavirus OR 2019-nCoV OR COVID-19 OR COVID19 OR CORVID-19 OR wn co OR novel coronavirus OR new coronavirus OR 2019 novel OR new coronavirus OR ncov OR SARS-CoV-2 OR SARSCov19 OR ncov* wuhan)``
+
+EMBASE:
+
+``(nCoV or 2019-nCoV or ((new or novel or wuhan) adj3 coronavirus) or covid19 or covid-19 or SARS-CoV-2).mp. ``
+
+BioRxiv/MedRxiv:
+
+``ncov or corona or wuhan or COVID or SARS-CoV-2``
+
+With the kind support of the [Public Health & Primary Care Library PHC](https://www.unibe.ch/university/services/university_library/faculty_libraries/medicine/public_health_amp_primary_care_library_phc/index_eng.html), and following guidance of the [Medical Library Association](https://www.mlanet.org/p/cm/ld/fid=1713)
+
+### 01.01.2020-25.03.2020
+
 MEDLINE:
 
 ``("Wuhan coronavirus" [Supplementary Concept] OR "COVID-19" OR "2019 ncov"[tiab] OR (("novel coronavirus"[tiab] OR "new coronavirus"[tiab]) AND (wuhan[tiab] OR 2019[tiab])) OR 2019-nCoV[All Fields] OR (wuhan[tiab] AND coronavirus[tiab])))))``
