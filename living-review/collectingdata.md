@@ -11,7 +11,7 @@ We retrieve data from [EMBASE](http://www.embase.com) via OVID, [MEDLINE](https:
 
 MEDLINE:
 
-``(2019 novel coronavirus disease OR 2019 novel coronavirus infection OR 2019-ncov disease OR 2019-ncov infection OR coronavirus disease 2019 OR coronavirus disease-19 OR coronavirus* OR coronovirus* OR coronavirus Infections OR Wuhan coronavirus OR 2019-nCoV OR COVID-19 OR COVID19 OR CORVID-19 OR wn co OR novel coronavirus OR new coronavirus OR 2019 novel OR new coronavirus OR ncov OR SARS-CoV-2 OR SARSCov19 OR ncov* wuhan)``
+``(\"Wuhan coronavirus\" [Supplementary Concept] OR \"COVID-19\" OR \"2019 ncov\"[tiab] OR ((\"novel coronavirus\"[tiab] OR \"new coronavirus\"[tiab]) AND (wuhan[tiab] OR 2019[tiab])) OR 2019-nCoV[All Fields] OR (wuhan[tiab] AND coronavirus[tiab])))))``
 
 EMBASE:
 
