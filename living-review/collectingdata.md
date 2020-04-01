@@ -6,8 +6,11 @@ We retrieve data from [EMBASE](http://www.embase.com) via OVID, [MEDLINE](https:
 
 ## Search terms
 
+### 01.04.2020
 
-### 26.03.2020-now
+From 01.04.2020, we retrieve the currate BioRxiv/MedRxiv dataset [Link](https://connect.medrxiv.org/relate/content/181)
+
+### 26.03.2020-31.03.2020
 
 MEDLINE:
 
@@ -40,6 +43,9 @@ BioRxiv/MedRxiv:
 
 ## Defining the data format
 [Here](datastructure.html) we describe how the data is formatted. 
+
+### Dates
+We sort the information based on when the data was entered into the external database (MEDLINE, EMBASE, Rxiv), since publication date information is not always complete nor reliable.  
 
 ## PubMed 
 PubMed is accessible through the package [RISMed](https://cran.r-project.org/web/packages/RISmed/RISmed.pdf). We still need to process the data to a prespecified format.
