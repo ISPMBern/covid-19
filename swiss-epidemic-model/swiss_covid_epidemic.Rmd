@@ -11,45 +11,50 @@ library(deSolve)
 library(RColorBrewer)
 library(lubridate)
 library(bbmle)
+library(mvtnorm)
 ```
 
 ```{r data, include = FALSE}
 # Load data
-# Source: https://interaktiv.tagesanzeiger.ch/2020/wuhan-schweiz/
+# Source: https://github.com/openZH/covid_19 and https://interaktiv.tagesanzeiger.ch/2020/wuhan-schweiz/ 
 reported <- read.csv("swiss_covid_epidemic.csv")
-reported <- reported[, 1:5]
-reported <- reported[-1,]
 reported[, 1] <- ymd(reported[, 1])
-names(reported) <- c("date", "cum_cases", "cum_deaths", "inc_cases", "inc_deaths")
+names(reported) <- c("date", "inc_deaths")
+firstcase <- ymd(20200225)
+lockdown <- ymd(20200317)
+relaxation <- ymd(20200426)
 ```
 
 ```{r model, include = FALSE}
 # COVID-19 transmission model
 model <- function(t, x, parms) {
 	with(as.list(c(parms, x)), {
-	    ifelse(t < (seed + control), beta <- R_0*gamma/popsize, beta <- kappa*R_0*gamma/popsize)
+	    beta <- R_0*gamma/popsize
+	    if(t > (seed + control1) & t < (seed + control2)) beta <- kappa*R_0*gamma/popsize
 		dS <- - beta*S*I
 		dE <- beta*S*I - sigma*E
 		dI <- sigma*E - gamma*I
-		dH <- epsilon1*gamma*I - omega1*H
-		dV <- epsilon2*omega1*H - omega2*V
-		dR <- (1 - epsilon1)*gamma*I + (1 - epsilon2)*omega1*H + (1 - epsilon3)*omega2*V
-		dD <- epsilon3*omega2*V
-		dC <- sigma*E
-		der <- c(dS, dE, dI, dH, dV, dR, dD, dC)
+		dP <- epsilon1*gamma*I - omega1*P
+		dH <- omega1*P - omega2*H
+		dV <- epsilon2*omega2*H - omega3*V
+		dR <- (1 - epsilon1)*gamma*I + (1 - epsilon2)*omega2*H + (1 - epsilon3)*omega3*V
+		dD <- epsilon3*omega3*V
+		dC <- gamma*I
+		der <- c(dS, dE, dI, dP, dH, dV, dR, dD, dC)
 		list(der)
 	})
 }
 
 # Negative log-likelihood
-nll <- function(seed, R_0, sigma, gamma, omega1, omega2, epsilon1, epsilon2, epsilon3, control, kappa) {
-    pars <- c(seed = seed, R_0 = R_0, sigma = sigma, gamma = gamma, omega1 = omega1, omega2 = omega2, epsilon1 = epsilon1, epsilon2 = epsilon2, epsilon3 = epsilon3, control = control, kappa = kappa)
+nll <- function(seed, R_0, sigma, gamma, omega1, omega2, omega3, epsilon1, epsilon2, epsilon3, control1, control2, kappa) {
+    pars <- c(seed = seed, R_0 = R_0, sigma = sigma, gamma = gamma, omega1 = omega1, omega2 = omega2, omega3 = omega3, epsilon1 = epsilon1, epsilon2 = epsilon2, epsilon3 = epsilon3, control1 = control1,  control2 = control2, kappa = kappa)
     pars <- trans(pars)
     times <- c(0, pars["seed"] + reported$date - min(reported$date))
     times <- c(times, max(times + 1))
     simulation <- as.data.frame(ode(inits, times, model, pars))
     simulation <- simulation[-1, ]
     ll <- sum(dpois(reported$inc_deaths, diff(simulation$D), log = TRUE))
+    #ll <- sum(dnbinom(reported$inc_deaths, mu = diff(simulation$D), size = 1, log = TRUE))
     return(-ll)
 }
 
@@ -69,24 +74,74 @@ times <- 0:200
 inits <- c(S = popsize - 1,
            E = 0,
            I = 1,
+           P = 0,
            H = 0,
            V = 0,
            R = 0,
            D = 0,
            C = 1)
-fixed <- c(sigma = 1/2.6,
+fixed <- c(sigma = 1/2.6, # Generation time of 5.2 days (Ganyani et al., medRxiv)
            gamma = 1/2.6, # Generation time of 5.2 days (Ganyani et al., medRxiv)
-           omega1 = 1/8, # 8 days hospital for mild and severe cases (Imperial College COVID-19 Response Team: Report 9)
-           omega2 = 1/8, # 8 days hospital for critical cases (Imperial College COVID-19 Response Team: Report 9)
+           omega1 = 1/4, # 20 days from onset to death (Linton et al., J Clin Med)
+           omega2 = 1/8, # 8 days hospital for mild and severe cases (Imperial College COVID-19 Response Team: Report 9)
+           omega3 = 1/8, # 8 days hospital for critical cases (Imperial College COVID-19 Response Team: Report 9)
            epsilon1 = 0.05, # 5% hospitalization
-           epsilon2 = 0.5, # 2.5% become critical
-           epsilon3 = 0.5, # 1.25% fatal
-           control = 21) # Lockdown 'light' 21 days after occurence of first case (17 March 2020)
-free <- c(seed = log(30),
-          R_0 = log(2.2),
+           epsilon2 = 0.3, # 30% become critical
+           epsilon3 = 0.8, # 80% fatal ('including' deaths outside ICU)
+           control1 = as.numeric(lockdown - firstcase),
+           control2 = as.numeric(relaxation - firstcase))
+free <- c(seed = log(15),
+          R_0 = log(3.0),
           kappa = qlogis(0.5))
 fit <- mle2(nll, start = as.list(free), fixed = as.list(fixed), method = "Nelder-Mead")
 fit_ci <- confint(fit)
+```
+
+```{r bootstrap, include = FALSE, cache = TRUE}
+n_sim <- 1e4
+m <- coef(fit, exclude.fixed = TRUE)
+sigma <- vcov(fit)
+sim_coef <- data.frame(rmvnorm(n_sim, mean = m, sigma = sigma))
+sim_coef$seed <- exp(sim_coef$seed)
+sim_coef$R_0 <- exp(sim_coef$R_0)
+sim_coef$kappa <- plogis(sim_coef$kappa)
+
+est_R_0 <- c(trans(coef(fit))["R_0"], exp(fit_ci[2, ]))
+est_kappa <- c(trans(coef(fit))["kappa"], plogis(fit_ci[3, ]))
+est_R_e <- c(trans(coef(fit))["R_0"]*trans(coef(fit))["kappa"], quantile(sim_coef$R_0*sim_coef$kappa, probs = c(0.025, 0.975)))
+names(est_R_e)[1] <- "R_e" 
+
+est_R_0
+est_kappa
+est_R_e
+
+mod_length <- 62 # 25 Feb 2020 to 26 Apr 2020
+mod_C <- matrix(NA, nrow = mod_length, ncol = n_sim)
+mod_CI <- matrix(NA, nrow = mod_length - 1, ncol = n_sim)
+mod_HV <- matrix(NA, nrow = mod_length, ncol = n_sim)
+mod_V <- matrix(NA, nrow = mod_length, ncol = n_sim)
+mod_D <- matrix(NA, nrow = mod_length, ncol = n_sim)
+mod_DI <- matrix(NA, nrow = mod_length - 1, ncol = n_sim)
+
+for(i in 1:n_sim) {
+    parms <- c(unlist(sim_coef[i, ]), fixed)
+    times <- c(0, parms["seed"] + 0:(mod_length - 1))
+    sim <- as.data.frame(ode(inits, times, model, parms))
+    sim <- sim[-1, ]
+    mod_C[, i] <- sim$C
+    mod_CI[, i] <- diff(sim$C)
+    mod_HV[, i] <- sim$H + sim$V
+    mod_V[, i] <- sim$V
+    mod_D[, i] <- sim$D
+    mod_DI[, i] <- diff(sim$D)
+}
+
+mod_C <- apply(mod_C, MAR = 1, FUN = quantile, probs = c(0.025, 0.975))
+mod_CI <- apply(mod_CI, MAR = 1, FUN = quantile, probs = c(0.025, 0.975))
+mod_HV <- apply(mod_HV, MAR = 1, FUN = quantile, probs = c(0.025, 0.975))
+mod_V <- apply(mod_V, MAR = 1, FUN = quantile, probs = c(0.025, 0.975))
+mod_D <- apply(mod_D, MAR = 1, FUN = quantile, probs = c(0.025, 0.975))
+mod_DI <- apply(mod_DI, MAR = 1, FUN = quantile, probs = c(0.025, 0.975))
 ```
 
 ***
@@ -94,10 +149,10 @@ fit_ci <- confint(fit)
 #### Important note: This report provides preliminary results and is work in progress (also see 'Notes on individual reports').
 
 ### Introduction
-Switzerland reported its first case of coronavirus disease 2019 (COVID-19) on 25 Feb 2020. As of `r day(max(reported$date))` `r month(max(reported$date), label = TRUE)` `r year(max(reported$date))`, there are `r max(reported$cum_cases)` reported cases and `r max(reported$cum_deaths)` deaths. Arguably, the reported numbers of cases do not provide a clear picture of the overall epidemic as a significant proportion of particularly mild or asymptomatic cases cannot be diagnosed and will go unreported (also see [here](https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html)). Hence, we argue that tracking the reported number of deaths provides a better picture of the COVID-19 epidemic in Switzerland. We fit a dynamic transmission model to the daily number of reported deaths in Switzerland, and project different future trajectories as a result of the lockdown 'light' on 17 Mar 2020.
+Switzerland reported its first case of coronavirus disease 2019 (COVID-19) on 25 Feb 2020. As of `r day(max(reported$date))` `r month(max(reported$date), label = TRUE)` `r year(max(reported$date))`, there have been `r sum(reported$inc_deaths)` reported deaths. Interpreting trends in the daily numbers of reported cases can be challenging as a significant proportion of particularly mild or asymptomatic cases cannot be diagnosed and will go unreported (also see [here](https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html)). Here, we aim to describe the COVID-19 epidemic in Switzerland by tracking the numbers of reported deaths. To this end, we fit a dynamic transmission model to the daily number of reported deaths, estimate the reduction in transmission after the strengthening of social distancing measures on 17 Mar 2020, and project the further course of the COVID-19 epidemic in Switzerland.
 
 ### Methods
-We consider a SEIR transmission model with additional compartments for hospitalization and critical care (ICU) (see [R Markdown file](swiss_covid_epidemic.Rmd) and Table). We use a maximum likelihood framework to fit the model to the [reported numbers of deaths](swiss_covid_epidemic.csv), assuming the daily numbers of deaths are Poisson distributed. We assume constant uncontrolled transmission until the lockdown and then vary the transmission rate relative to the epidemic spread before the lockdown.
+We consider a SEIR transmission model with additional compartments for hospitalization and critical care (ICU) (see [R Markdown file](swiss_covid_epidemic.Rmd) and Table). We use a maximum likelihood framework to fit the model to the [reported numbers of deaths](swiss_covid_epidemic.csv), assuming the daily numbers of deaths are Poisson distributed. We assume constant uncontrolled transmission until the strengthening of social distancing measures on 17 Mar 2020 and then estimate the following reduction in transmission.
 
 **Table. Parameters of the COVID-19 transmission model.**
 
@@ -105,128 +160,80 @@ Parameter | Value | Source
 --------- | ----- | ------
 Population size of Switzerland | 8.6 million | [Federal Statistical Office](https://www.bfs.admin.ch/bfs/en/home/statistics/population.html)
 Generation time | 5.2 days | [Ganyani et al.](https://www.medrxiv.org/content/10.1101/2020.03.05.20031815v1)
+Duration from onset of symptoms to death | 20 days | [Linton et al.](https://doi.org/10.3390/jcm9020538)
 Duration of hospitalization for mild and severe cases | 8 days | [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
 Additional duration of hospitalization for critical cases | 8 days | [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
 Proportion hospitalized cases | 5% | Adapted from [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
-Proportion critical cases | 2.5% | Adapted from [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
-Overall case fatality ratio | 1.25% | Adapted from [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
+Proportion critical cases | 1.5% | Adapted from [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
+Overall case fatality ratio | 1.2% | Adapted from [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
 Basic reproduction number $R_0$ | Estimated | -
+Reduction in transmission after 17 March | Estimated | -
 
 ### Results
-Before the lockdown in Switzerland, we estimate the basic reproduction number $R_0$ of COVID-19 at `r round(trans(coef(fit))[["R_0"]], 2)` (95% confidence interval: `r round(exp(fit_ci[2]), 2)` - `r round(exp(fit_ci[5]), 2)`). This value of $R_0$ requires transmission to be reduced by at least `r 1e2*round(1 - 1/trans(coef(fit))[["R_0"]], 2)`% (1 - 1/$R_0$) in order to drop the effective reproduction number $R$ below the critical threshold of 1.
+Before 17 Mar 2020, we estimate the basic reproduction number $R_0$ of COVID-19 at `r round(est_R_0[1], 2)` (95% confidence interval, CI: `r round(est_R_0[2], 2)` - `r round(est_R_0[3], 2)`). Transmission decreased with the strengthening of social distancing measures by `r 1e2*round(1 - est_kappa[1], 2)`% (95% CI: `r 1e2*round(1 - est_kappa[3], 2)`%-`r 1e2*round(1 - est_kappa[2], 2)`%). This resulted in an effective reproduction number $R_e$ = `r round(est_R_e[1], 2)` (95% confidence interval, CI: `r round(est_R_e[2], 2)` - `r round(est_R_e[3], 2)`). Based on these estimates, we can project the future epidemic trajectory for the coming weeks (Figure).
 
-In order to project future epidemic trajectories, we consider the following scenarios of reduced transmission as a result of the lockdown on 17 March 2020: 100% (no reduction in transmission), 75%, 50%, 40%, 30%, 20%, 10%, and 0% (complete interruption of transmission). The model suggests that the necessary ICU capacities in Switzerland will stay below 1000 during early  April if the current lockdown in Switzerland reduces transmission by 70% or more (Figure).
-
-```{r scenarios, echo=FALSE, fig.width=9, fig.height=6}
-# Run different control scenarios
+```{r scenarios, echo = FALSE, fig.width = 9, fig.height = 7}
+# Plot best-fit model and confidence intervals
 parms <- trans(coef(fit))
-times <- c(0, parms["seed"])
+times <- c(0, parms["seed"] + 0:(mod_length - 1))
 sim <- as.data.frame(ode(inits, times, model, parms))
-inits_control <- as.numeric(sim[2, 2:9])
-names(inits_control) <- names(inits)
-times <- 0:65
+sim <- sim[-1, ]
+timepoints1 <- firstcase + 0:(mod_length - 1)
+timepoints2 <- firstcase + 1:(mod_length - 1)
 
-kappa_range <- c(1, 0.75, 0.5, 0.4, 0.3, 0.2, 0.1, 0.0)
-
-par(mfrow = c(2, 3))
-plot(ymd(20200225) + times, rep(NA, length(times)),
-     ylim = c(0, 5e3),
-     xlab = NA, ylab = "Number of hospitalized patients", main = "Hospitalization", frame = FALSE)
-cols <- brewer.pal(9, "Blues")[2:9]
-for(i in 1:length(kappa_range)) {
-    parms["kappa"] <- kappa_range[i]
-    parms["control"] <- 21
-    parms["seed"] <- 0
-    sim <- as.data.frame(ode(inits_control, times, model, parms))
-    sim$time <- ymd(20200225) + times
-    lines(sim$time, sim$H + sim$V, col = cols[i])
+cols <- brewer.pal(3, "Set1")
+t.cols <- cols
+for(i in 1:length(cols)) {
+    x <- col2rgb(cols[i])
+    t.cols[i] <- rgb(x[1, ], x[2, ], x[3, ], alpha = 125, maxColorValue = 255)
 }
-legend("topleft", as.character(kappa_range), lty = rep(1, 8), col = cols, bty = "n")
-abline(v = ymd(20200317), lty = 3)
+
+par(mfrow = c(2, 2))
+plot(timepoints2, diff(sim$D),
+     ylim = c(0, 1e2),
+     ty = "l",
+     col = cols[1],
+     xlab = NA, ylab = "Daily number of deaths", main = "Daily deaths", frame = FALSE)
+polygon(x = c(timepoints2, rev(timepoints2)), y = c(mod_DI[1,], rev(mod_DI[2,])), col = t.cols[1], border = NA)
+points(reported$date, reported$inc_deaths, pch = 21, bg = "white")
+abline(v = lockdown, lty = 3)
+abline(v = relaxation, lty = 3)
 abline(v = max(reported$date), lty = 2)
 
-plot(ymd(20200225) + times, rep(NA, length(times)),
+plot(timepoints1, sim$D,
      ylim = c(0, 2e3),
+     ty = "l",
+     col = cols[1],
+     xlab = NA, ylab = "Cumulative number of deaths", main = "Total deaths", frame = FALSE)
+polygon(x = c(timepoints1, rev(timepoints1)), y = c(mod_D[1,], rev(mod_D[2,])), col = t.cols[1], border = NA)
+points(reported$date, cumsum(reported$inc_deaths), pch = 21, bg = "white")
+abline(v = lockdown, lty = 3)
+abline(v = relaxation, lty = 3)
+abline(v = max(reported$date), lty = 2)
+
+plot(timepoints1, sim$H + sim$V,
+     ylim = c(0, 4e3),
+     ty = "l",
+     col = cols[3],
+     xlab = NA, ylab = "Number of hospitalized patients", main = "Hospitalization", frame = FALSE)
+polygon(x = c(timepoints1, rev(timepoints1)), y = c(mod_HV[1,], rev(mod_HV[2,])), col = t.cols[3], border = NA)
+abline(v = lockdown, lty = 3)
+abline(v = relaxation, lty = 3)
+abline(v = max(reported$date), lty = 2)
+
+plot(timepoints1, sim$V,
+     ylim = c(0, 2e3),
+     ty = "l",
+     col = cols[2],
      xlab = NA, ylab = "Number of patients in ICU", main = "ICU", frame = FALSE)
-cols <- brewer.pal(9, "Purples")[2:9]
-for(i in 1:length(kappa_range)) {
-    parms["kappa"] <- kappa_range[i]
-    parms["control"] <- 21
-    parms["seed"] <- 0
-    sim <- as.data.frame(ode(inits_control, times, model, parms))
-    sim$time <- ymd(20200225) + times
-    lines(sim$time, sim$V, col = cols[i])
-}
-legend("topleft", as.character(kappa_range), lty = rep(1, 8), col = cols, bty = "n")
-abline(v = ymd(20200317), lty = 3)
-abline(v = max(reported$date), lty = 2)
-
-plot(ymd(20200225) + times, rep(NA, length(times)),
-     ylim = c(0, 3e3),
-     xlab = NA, ylab = "Cumulative number of deaths", main = "Deaths", frame = FALSE)
-cols <- brewer.pal(9, "Reds")[2:9]
-for(i in 1:length(kappa_range)) {
-    parms["kappa"] <- kappa_range[i]
-    parms["control"] <- 21
-    parms["seed"] <- 0
-    sim <- as.data.frame(ode(inits_control, times, model, parms))
-    sim$time <- ymd(20200225) + times
-    lines(sim$time, sim$D, col = cols[i])
-}
-points(reported$date, reported$cum_deaths)
-abline(v = ymd(20200317), lty = 3)
-abline(v = max(reported$date), lty = 2)
-legend("topleft", as.character(kappa_range), lty = rep(1, 8), col = cols, bty = "n")
-
-# Same on logarithmic scale
-plot(ymd(20200225) + times, rep(NA, length(times)),
-     ylim = c(1, 1e6), log = "y",
-     xlab = NA, ylab = "Number of hospitalized patients", frame = FALSE)
-cols <- brewer.pal(9, "Blues")[2:9]
-for(i in 1:length(kappa_range)) {
-    parms["kappa"] <- kappa_range[i]
-    parms["control"] <- 21
-    parms["seed"] <- 0
-    sim <- as.data.frame(ode(inits_control, times, model, parms))
-    sim$time <- ymd(20200225) + times
-    lines(sim$time, sim$H + sim$V, col = cols[i])
-}
-abline(v = ymd(20200317), lty = 3)
-abline(v = max(reported$date), lty = 2)
-
-plot(ymd(20200225) + times, rep(NA, length(times)),
-     ylim = c(1, 1e6), log = "y",
-     xlab = NA, ylab = "Number of patients in ICU", frame = FALSE)
-cols <- brewer.pal(9, "Purples")[2:9]
-for(i in 1:length(kappa_range)) {
-    parms["kappa"] <- kappa_range[i]
-    parms["control"] <- 21
-    parms["seed"] <- 0
-    sim <- as.data.frame(ode(inits_control, times, model, parms))
-    sim$time <- ymd(20200225) + times
-    lines(sim$time, sim$V, col = cols[i])
-}
-abline(v = ymd(20200317), lty = 3)
-abline(v = max(reported$date), lty = 2)
-
-plot(ymd(20200225) + times, rep(NA, length(times)),
-     ylim = c(1, 1e6), log = "y",
-     xlab = NA, ylab = "Cumulative number of deaths", frame = FALSE)
-cols <- brewer.pal(9, "Reds")[2:9]
-for(i in 1:length(kappa_range)) {
-    parms["kappa"] <- kappa_range[i]
-    parms["control"] <- 21
-    parms["seed"] <- 0
-    sim <- as.data.frame(ode(inits_control, times, model, parms))
-    sim$time <- ymd(20200225) + times
-    lines(sim$time, sim$D, col = cols[i])
-}
-points(reported$date, reported$cum_deaths)
-abline(v = ymd(20200317), lty = 3)
+polygon(x = c(timepoints1, rev(timepoints1)), y = c(mod_V[1,], rev(mod_V[2,])), col = t.cols[2], border = NA)
+abline(v = lockdown, lty = 3)
+abline(v = relaxation, lty = 3)
 abline(v = max(reported$date), lty = 2)
 ```
 
-**Figure. Projected numbers of hospitalizations, patients in ICU and deaths under different scenarios for the COVID-19 epidemic in Switzerland.** The different scenarios correspond to different levels of transmission relative to the epidemic spread before the lockdown. Vertical dotted and dashed lines indicate the time points of the lockdown (17 Mar 2020) and the last data point (`r day(max(reported$date))` `r month(max(reported$date), label = TRUE)` `r year(max(reported$date))`). Epidemic trajectories are shown on a linear (top panels) and logarithmic (bottom panels) scale.
+**Figure. Projected numbers of deaths, hospitalizations and patients in ICU for the COVID-19 epidemic in Switzerland.** Vertical dotted and dashed lines indicate the time points of the strengthening and planned relaxation of social distancing measures (17 Mar 2020 and 26 Apr 2020, respectively) and the last data point (`r day(max(reported$date))` `r month(max(reported$date), label = TRUE)` `r year(max(reported$date))`).
 
 ### Notes on individual reports
+- 9 Apr 2020: Made some additions to the model. Data allows to estimate the reduction in transmission after the strengthening of social distancing measures.
 - 24 Mar 2020: Shortening the generation time from 7.5 days ([Li et al.](https://doi.org/10.1056/NEJMoa2001316)) to 5.2 days ([Ganyani et al.](https://www.medrxiv.org/content/10.1101/2020.03.05.20031815v1)) results in a lower estimate of $R_0$, and consequently more optimistic projections about epidemic control.
