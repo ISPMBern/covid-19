@@ -16,7 +16,7 @@ During this international public health emergency, the Institute of Social and P
 ## Projects
 ### Ongoing
 * [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
-* EpiPose -  Epidemic intelligence to minimize 2019-nCoV’s public health, economic and social impact in Europe
+* [EpiPose -  Epidemic intelligence to minimize 2019-nCoV’s public health, economic and social impact in Europe](https://ec.europa.eu/info/sites/info/files/research_and_innovation/research_by_area/documents/ec_rtd_cv-projects.pdf)
 * [Living evidence on COVID-19](living-review/)
 * [Daily reporting on COVID-19](reports/)
 
@@ -29,31 +29,37 @@ During this international public health emergency, the Institute of Social and P
 3. Riou J, Althaus CL. [Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020.](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058) Euro Surveill. 2020 Jan;25(4).
 
 ## Swiss National COVID-19 Science Task Force
-Several researchers at the Institute of Social and Preventive Medicine are members of the [Swiss National COVID-19 Science Task Force](https://ncs-tf.ch/de/) that assists the authorities in overcoming the COVID-19 crisis:
+Several researchers of the Institute of Social and Preventive Medicine are members of the [Swiss National COVID-19 Science Task Force](https://ncs-tf.ch/de/) that assists the authorities in overcoming the COVID-19 crisis:
 
 * [Prof. Dr. Matthias Egger](https://www.ispm.unibe.ch/about_us/staff/egger_matthias/index_eng.html), Chair
 * [Prof. Dr. Nicola Low](https://www.ispm.unibe.ch/about_us/staff/low_nicola/index_eng.html), Expert Group on Public Health
 * [PD Dr. Christian L. Althaus](https://www.ispm.unibe.ch/about_us/staff/althaus_christian/index_eng.html), Expert Group on Data and Modelling
 
 ## Links to other resources
+### Switzerland
+* [Switzerland COVID-19 Scenario Report](https://jcblemai.github.io), École polytechnique fédérale de Lausanne (EPFL)
+* [Monitoring COVID-19 spread in Switzerland](https://bsse.ethz.ch/cevo/research/sars-cov-2/real-time-monitoring-in-switzerland.html), ETH Zurich
+* [Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19](https://imperialcollegelondon.github.io/covid19estimates/#/details/Switzerland), Imperial College
+* [Temporal variation in transmission during the COVID-19 outbreak](https://cmmid.github.io/topics/covid19/current-patterns-transmission/global-time-varying-transmission.html), London School of Hygiene & Tropical Medicine
+* [COVID-19 Scenarios](https://covid19-scenarios.org), University of Basel
+* [Specialist Unit for Open Government Data Canton of Zurich](https://github.com/openZH/covid_19)
+* [Corona-Data](https://www.corona-data.ch) by [Daniel Probst](https://github.com/daenuprobst/covid19-cases-switzerland)
+* [#COVIDMonitor Europe	](https://rastrau.shinyapps.io/covid-eu/)
+* [COVID-19 Social Monitor](https://www.zhaw.ch/de/sml/institute-zentren/wig/projekte/covid-19-social-monitor/), ZHAW Zurich University of Applied Sciences
+
+### International research groups
+* [Centre for the Mathematical Modelling of Infectious Diseases](https://cmmid.github.io/topics/covid19/)
+* [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/)
+* [EPIxc lab](https://www.epicx-lab.com/covid-19.html)
+* [CIDRAP - Center for Infectious Disease Research and Policy](http://www.cidrap.umn.edu/covid-19)
+* [MIDAS 2019 Novel Coronavirus Repository](https://github.com/midas-network/COVID-19)
+* [CEID Coronavirus Working Group](http://2019-coronavirus-tracker.com/index.html)
+
 ### Public health agencies
 * [World Health Organization (WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 * [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en/novel-coronavirus-china)
 * [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-nCoV/summary.html)
 * [Swiss Federal Office for Public Health (FOPH)](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov.html)
-
-### Real-time analyses and dashboards for Switzerland
-* [École polytechnique fédérale de Lausanne (EPFL)](https://jcblemai.github.io)
-* [ETH Zurich](https://bsse.ethz.ch/cevo/research/sars-cov-2/real-time-monitoring-in-switzerland.html)
-* [Imperial College London](https://imperialcollegelondon.github.io/covid19estimates/#/details/Switzerland)
-* [London School of Hygiene & Tropical Medicine](https://cmmid.github.io/topics/covid19/current-patterns-transmission/global-time-varying-transmission.html)
-
-### Other
-* [CIDRAP - Center for Infectious Disease Research and Policy](http://www.cidrap.umn.edu/covid-19)
-* [MIDAS 2019 Novel Coronavirus Repository](https://github.com/midas-network/COVID-19)
-* [CEID 2019 Novel Coronavirus Tracker](http://2019-coronavirus-tracker.com/index.html)
-
-
 
 ## Media coverage
 
