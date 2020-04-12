@@ -36,7 +36,7 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 * [PD Dr. Christian L. Althaus](https://www.ispm.unibe.ch/about_us/staff/althaus_christian/index_eng.html), Expert Group on Data and Modelling
 
 ## Links to other resources
-### Switzerland
+### Related to Switzerland
 * [Switzerland COVID-19 Scenario Report](https://jcblemai.github.io), École polytechnique fédérale de Lausanne (EPFL)
 * [Monitoring COVID-19 spread in Switzerland](https://bsse.ethz.ch/cevo/research/sars-cov-2/real-time-monitoring-in-switzerland.html), ETH Zurich
 * [Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19](https://imperialcollegelondon.github.io/covid19estimates/#/details/Switzerland), Imperial College
@@ -55,7 +55,7 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 * [MIDAS 2019 Novel Coronavirus Repository](https://github.com/midas-network/COVID-19)
 * [CEID Coronavirus Working Group](http://2019-coronavirus-tracker.com/index.html)
 
-### Public health agencies
+### National and international public health agencies
 * [World Health Organization (WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 * [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en/novel-coronavirus-china)
 * [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-nCoV/summary.html)
