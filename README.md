@@ -2,10 +2,6 @@
 
 ### [Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch), Switzerland
 
-> "The transmission characteristics of COVID-19 appear to be of similar magnitude to pandemic influenza, indicating the risk of global spread."
-
--Julien Riou, PhD, and Christian Althaus, PhD
-
 ![](images/covid19.png)
 
 ## About
@@ -24,9 +20,17 @@ During this international public health emergency, the Institute of Social and P
 * [Estimating case fatality ratio of COVID-19 from observed cases outside China](https://github.com/calthaus/ncov-cfr)
 
 ## Publications
-1. Hauser A, Counotte MJ, Margossian CC, Konstantinoudis G, Low N, Althaus CL, Riou J. [Estimation of SARS-CoV-2 mortality during the early stages of an epidemic: a modelling study in Hubei, China and northern Italy.](https://doi.org/10.1101/2020.03.04.20031104) medRxiv. 2020;03.04.20031104.
-2. Salathé M, Althaus CL, Neher R, Stringhini S, Hodcroft E, et al. [COVID-19 epidemic in Switzerland: on the importance of testing, contact tracing and isolation.](https://doi.org/10.4414/smw.2020.20225) Swiss Med Wkly. 2020 Mar 19;150:w20225.
-3. Riou J, Althaus CL. [Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020.](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058) Euro Surveill. 2020 Jan;25(4).
+* Hauser A, Counotte MJ, Margossian CC, Konstantinoudis G, Low N, Althaus CL, Riou J. [Estimation of SARS-CoV-2 mortality during the early stages of an epidemic: a modelling study in Hubei, China and northern Italy.](https://doi.org/10.1101/2020.03.04.20031104) medRxiv. 2020;03.04.20031104.
+
+> Background. The epidemic of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) that originated in Wuhan, China in late 2019 is now pandemic. Reliable estimates of death from coronavirus disease 2019 (COVID-19) are essential to guide control efforts and to plan health care system requirements. The objectives of this study are to: 1) simulate the transmission dynamics of SARS-CoV-2 using publicly available surveillance data; 2) give estimates of SARS-CoV-2 mortality adjusted for bias in the two regions with the world's highest numbers of confirmed Covid-19 deaths: Hubei province, China and northern Italy. Method and Findings. We developed an age-stratified susceptible-exposed-infected-removed (SEIR) compartmental model describing the dynamics of transmission and mortality during the SARS-CoV-2 epidemic. Our model accounts for two biases; preferential ascertainment of severe cases and delayed mortality (right-censoring). We fitted our transmission model to surveillance data from Hubei province (1 January to 11 February 2020) and northern Italy (8 February to 3 March 2020). Overall mortality among all symptomatic and asymptomatic infections was estimated to be 3.0% (95% credible interval: 2.6-3.4%) in Hubei province and 3.3% (2.0-4.7%) in northern Italy. Mortality increased with age; we estimate that among 80+ year olds, 39.0% (95%CrI: 31.1-48.9%) in Hubei province and 89.0% (95%CrI: 56.2-99.6%) in northern Italy dies or will die. Limitations are that the model requires data recorded by date of onset and that sex-disaggregated mortality was not available. Conclusions. We developed a mechanistic approach to correct the crude CFR for bias due to right-censoring and preferential ascertainment and provide adjusted estimates of mortality due to SARS-CoV-2 infection by age group. While specific to the situation in Hubei, China and northern Italy during these periods, these findings will help the mitigation efforts and planning of resources as other regions prepare for SARS-CoV-2 epidemics.
+
+* Salathé M, Althaus CL, Neher R, Stringhini S, Hodcroft E, et al. [COVID-19 epidemic in Switzerland: on the importance of testing, contact tracing and isolation.](https://doi.org/10.4414/smw.2020.20225) Swiss Med Wkly. 2020 Mar 19;150:w20225.
+
+>Switzerland is among the countries with the highest number of coronavirus disease-2019 (COVID-19) cases per capita in the world. There are likely many people with undetected SARS-CoV-2 infection because testing efforts are currently not detecting all infected people, including some with clinical disease compatible with COVID-19. Testing on its own will not stop the spread of SARS-CoV-2. Testing is part of a strategy. The World Health Organization recommends a combination of measures: rapid diagnosis and immediate isolation of cases, rigorous tracking and precautionary self-isolation of close contacts. In this article, we explain why the testing strategy in Switzerland should be strengthened urgently, as a core component of a combination approach to control COVID-19.
+
+* Riou J, Althaus CL. [Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020.](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058) Euro Surveill. 2020 Jan;25(4).
+
+> Since December 2019, China has been experiencing a large outbreak of a novel coronavirus (2019-nCoV) which can cause respiratory disease and severe pneumonia. We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8), indicating the potential for sustained human-to-human transmission. Transmission characteristics appear to be of similar magnitude to severe acute respiratory syndrome-related coronavirus (SARS-CoV) and pandemic influenza, indicating a risk of global spread.
 
 ## Swiss National COVID-19 Science Task Force
 Several researchers of the Institute of Social and Preventive Medicine are members of the [Swiss National COVID-19 Science Task Force](https://ncs-tf.ch/de/) that assists the authorities in overcoming the COVID-19 crisis:
