@@ -1,6 +1,6 @@
 # Coronavirus Disease 2019 (COVID-19) Resources
 
-###[Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch), Switzerland
+### [Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch), Switzerland
 
 > "The transmission characteristics of COVID-19 appear to be of similar magnitude to pandemic influenza, indicating the risk of global spread."
 
@@ -36,10 +36,19 @@ Several researchers at the Institute of Social and Preventive Medicine are membe
 * [PD Dr. Christian L. Althaus](https://www.ispm.unibe.ch/about_us/staff/althaus_christian/index_eng.html), Expert Group on Data and Modelling
 
 ## Links to other resources
+### Public health agencies
 * [World Health Organization (WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 * [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en/novel-coronavirus-china)
 * [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-nCoV/summary.html)
-* [Swiss Federal Office for Public Health](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov.html)
+* [Swiss Federal Office for Public Health (FOPH)](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov.html)
+
+### Real-time analyses and dashboards for Switzerland
+* [École polytechnique fédérale de Lausanne (EPFL)](https://jcblemai.github.io)
+* [ETH Zurich](https://bsse.ethz.ch/cevo/research/sars-cov-2/real-time-monitoring-in-switzerland.html)
+* [Imperial College London](https://imperialcollegelondon.github.io/covid19estimates/#/details/Switzerland)
+* [London School of Hygiene & Tropical Medicine](https://cmmid.github.io/topics/covid19/current-patterns-transmission/global-time-varying-transmission.html)
+
+### Other
 * [CIDRAP - Center for Infectious Disease Research and Policy](http://www.cidrap.umn.edu/covid-19)
 * [MIDAS 2019 Novel Coronavirus Repository](https://github.com/midas-network/COVID-19)
 * [CEID 2019 Novel Coronavirus Tracker](http://2019-coronavirus-tracker.com/index.html)
