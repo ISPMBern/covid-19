@@ -1,8 +1,8 @@
-![](images/covid19.png)
-
 # Coronavirus Disease 2019 (COVID-19) Resources
 
 ### [Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch), Switzerland
+
+![](images/covid19.png)
 
 > You cannot fight a fire blindfolded. And we cannot stop this pandemic if we don’t know who is infected.
 
