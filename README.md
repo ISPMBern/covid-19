@@ -5,7 +5,7 @@
 ![](images/covid19.png)
 
 ## About
-On 31 December 2019, the World Health Organization was notified about a cluster of pneumonia of unknown origin in the city of Wuhan, China. Chinese authorities later identified a novel coronavirus (SARS-CoV-2) as the causative agent of the outbreak. After the coronavirus disease 2019 (COVID-19) outbreak spread to multiple countries all over the world, including Switzerland, the World Health Organization recognized it as a pandemic on 11 March 2020.
+On 31 December 2019, the World Health Organization was notified about a cluster of pneumonia of unknown origin in the city of Wuhan, China. Chinese authorities later identified a novel coronavirus (SARS-CoV-2) as the causative agent of the outbreak. After the coronavirus disease 2019 (COVID-19) outbreak spread to multiple countries across the globe, including Switzerland, the World Health Organization recognized it as a pandemic on 11 March 2020.
 
 During this international public health emergency, the Institute of Social and Preventive Medicine at the University of Bern provides information and resources about the ongoing COVID-19 epidemic for scientists, public health experts, journalists and the public.
 
@@ -62,8 +62,8 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 ### National and international public health agencies
 * [World Health Organization (WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 * [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en/novel-coronavirus-china)
-* [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-nCoV/summary.html)
-* [Swiss Federal Office for Public Health (FOPH)](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov.html)
+* [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-nCoV/index.html)
+* [Swiss Federal Office for Public Health (FOPH)](https://www.bag.admin.ch/bag/de/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov.html)
 
 ## Media coverage
 
