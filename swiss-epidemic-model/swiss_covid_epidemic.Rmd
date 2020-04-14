@@ -2,7 +2,11 @@
 title: "Real-time modeling and projections of the COVID-19 epidemic in Switzerland"
 author: "Christian L. Althaus, Institute of Social and Preventive Medicine, University of Bern, Switzerland"
 date: "`r format(Sys.time(), '%d %B %Y')`"
-output: html_document
+output:
+    html_document:
+        theme: default
+        toc: true
+        toc_float: true
 ---
 
 ```{r libraries, include = FALSE}
