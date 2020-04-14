@@ -2,6 +2,9 @@
 
 ### [Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch), Switzerland
 
+> You cannot fight a fire blindfolded. And we cannot stop this pandemic if we don’t know who is infected.
+-Dr. Tedros Adhanom Ghebreyesus, Director-General, World Health Organization (WHO), 16 March 2020
+
 ![](images/covid19.png)
 
 ## About
