@@ -2,10 +2,11 @@
 
 ### [Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch), Switzerland
 
-> You cannot fight a fire blindfolded. And we cannot stop this pandemic if we don’t know who is infected.
--Dr. Tedros Adhanom Ghebreyesus, Director-General, World Health Organization (WHO), 16 March 2020
-
 ![](images/covid19.png)
+
+> You cannot fight a fire blindfolded. And we cannot stop this pandemic if we don’t know who is infected.
+
+-Dr. Tedros Adhanom Ghebreyesus, Director-General, World Health Organization (WHO), 16 March 2020
 
 ## About
 On 31 December 2019, the World Health Organization was notified about a cluster of pneumonia of unknown origin in the city of Wuhan, China. Chinese authorities later identified a novel coronavirus (SARS-CoV-2) as the causative agent of the outbreak. After the coronavirus disease 2019 (COVID-19) outbreak spread to multiple countries across the globe, including Switzerland, the World Health Organization recognized it as a pandemic on 11 March 2020.
