@@ -2,6 +2,15 @@ index: [**HOME**] [[**Collecting data**](collectingdata.html)] [[**Deduplication
 
 # Living Evidence on COVID-19
 
+**Contributors:** [Michel Counotte](https://www.ispm.unibe.ch/about_us/staff/counotte_michel/index_eng.html), [Hira Imeiri](https://www.ispm.unibe.ch/about_us/staff/imeri_hira/index_eng.html)
+
+## [Go directly to the evidence database](https://zika.ispm.unibe.ch/assets/data/pub/ncov/)
+
+
+
+## Living evidence collection
+
+
 Evidence informs guidance and public health decisions. In disease outbreaks, evidence is often scarce but accumulates rapidly. We need solutions to keep track of the emerging evidence. One of these solutions was suggested by [Elliot et al.](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001603): the living systematic review. A review that is updated as soon as new information becomes available.  
 
 On this website, we explain how we set up a *Living Systematic Review* that can:
@@ -28,3 +37,8 @@ An preliminary version of annotated 'pre-screened' data is available on the [git
 
 ## Contact information
 For additional questions email: michel.counotte[at]ispm.unibe.ch
+
+## Funding
+Funding acquisition: [Prof. Nicola Low](https://www.ispm.unibe.ch/about_us/staff/low_nicola/index_eng.html)
+
+Funded by the [SNF](http://p3.snf.ch/project-176233)
