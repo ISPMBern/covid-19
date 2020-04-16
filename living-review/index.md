@@ -19,7 +19,7 @@ On this website, we explain how we set up a *Living Systematic Review* that can:
 * Move information to a central database
 * Allow crowd-distributed screening
 * Create flexible output in RShiny ([like this](https://zika.ispm.unibe.ch/assets/data/pub/ncov/))
-* Create annotated references lists to be used for other systematic reviews
+* Create annotated reference lists to be used for other systematic reviews
 
 ## Living systematic reviews & living evidence
 
@@ -36,7 +36,7 @@ Once we have clean reference data from the different sources, we perform [**dedu
 An preliminary version of annotated 'pre-screened' data is available on the [github](https://github.com/ZikaProject/COVID_references).
 
 ## Contact information
-For additional questions email: michel.counotte[at]ispm.unibe.ch
+For additional questions email: **michel.counotte[at]ispm.unibe.ch**
 
 ## Funding
 Funding acquisition: [Prof. Nicola Low](https://www.ispm.unibe.ch/about_us/staff/low_nicola/index_eng.html)
