@@ -15,9 +15,9 @@ During this international public health emergency, the Institute of Social and P
 
 ## Projects
 ### Ongoing
-* [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
 * [EpiPose -  Epidemic intelligence to minimize 2019-nCoV’s public health, economic and social impact in Europe](https://ec.europa.eu/info/sites/info/files/research_and_innovation/research_by_area/documents/ec_rtd_cv-projects.pdf)
-* [Living Evidence on COVID-19](living-review/)
++ [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
++ [Living Evidence on COVID-19](living-review/)
 * [COVID-19 reports by ISPM](reports/)
 
 ### Completed
