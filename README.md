@@ -25,7 +25,7 @@ During this international public health emergency, the Institute of Social and P
 
 ## Publications
 
-* Gonzalez-Jaramillo N, Low N & Francoa OH. [The double burden of disease of COVID-19 in cardiovascular patients: overlapping conditions could lead to overlapping treatments](https://doi.org/10.1007/s10654-020-00628-1) Eur. J. Epidemiol. 2020 Apr 15.
+* Gonzalez-Jaramillo N, Low N, Franco OH. [The double burden of disease of COVID-19 in cardiovascular patients: overlapping conditions could lead to overlapping treatments](https://doi.org/10.1007/s10654-020-00628-1) Eur J Epidemiol. 2020 Apr 15.
 
 >Coronavirus disease 2019 (COVID-19) pandemic imposes a double burden on people with cardiovascular disease (CVD). About 40% of hospitalized COVID-19 patients have CVD [1] and the clinical course of COVID-19 is more severe in patients with hypertension, diabetes, and CVD [2]. COVID-19 mortality increases with comorbidities and age [3]. Correct evaluation of this double burden is challenged by three gaps in our knowledge: (1) the unknown confounding effect of age on mortality of CVD/COVID-19 patients, (2) the not fully understood effects of COVID-19 on the cardiovascular system, and (3) how antihypertensive medications targeting the renin–angiotensin system (RAS) might be associated with the severity of and survival to COVID-19 in CVD patients.
 
