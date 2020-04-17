@@ -17,8 +17,8 @@ During this international public health emergency, the Institute of Social and P
 ### Ongoing
 * [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
 * [EpiPose -  Epidemic intelligence to minimize 2019-nCoV’s public health, economic and social impact in Europe](https://ec.europa.eu/info/sites/info/files/research_and_innovation/research_by_area/documents/ec_rtd_cv-projects.pdf)
-* [Living evidence on COVID-19](living-review/)
-* [Daily reporting on COVID-19](reports/)
+* [Living Evidence on COVID-19](living-review/)
+* [COVID-19 reports by ISPM](reports/)
 
 ### Completed
 * [Estimating case fatality ratio of COVID-19 from observed cases outside China](https://github.com/calthaus/ncov-cfr)
