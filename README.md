@@ -1,6 +1,6 @@
 # Coronavirus Disease 2019 (COVID-19) Resources
 
-**[Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch), Switzerland**
+**[Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch)**
 
 ![](images/bag.png)
 
