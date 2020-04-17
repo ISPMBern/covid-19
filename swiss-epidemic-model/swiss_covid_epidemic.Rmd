@@ -168,11 +168,11 @@ Parameter | Value | Source
 --------- | ----- | ------
 Population size of Switzerland | 8.6 million | [Federal Statistical Office](https://www.bfs.admin.ch/bfs/en/home/statistics/population.html)
 Serial interval | 5.2 days | [Ganyani et al.](https://www.medrxiv.org/content/10.1101/2020.03.05.20031815v1)
-Duration from onset of symptoms to hospitalization | 5 days | [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
-Duration of hospitalization | 16 days | [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
-Duration in critical care (ICU) | 10 days | [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
-Proportion hospitalized that require critical care | 30% | [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
-Proportion in critical care that will die | 50% | [Imperial College COVID-19 Response Team: Report 9](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
+Duration from onset of symptoms to hospitalization | 5 days | [Ferguson et al.](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
+Duration of hospitalization | 16 days | [Ferguson et al.](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
+Duration in critical care (ICU) | 10 days | [Ferguson et al.](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
+Proportion hospitalized that require critical care | 30% | [Ferguson et al.](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
+Proportion in critical care that will die | 50% | [Ferguson et al.](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)
 Overall cate fatality ratio | 1.4% | [Verity et al.](https://doi.org/10.1016/S1473-3099(20)30243-7) and [Wu et al.](https://doi.org/10.1038/s41591-020-0822-7)
 Basic reproduction number $R_0$ | `r round(est_R_0[1], 2)` (95% CI: `r round(est_R_0[2], 2)` - `r round(est_R_0[3], 2)`) | Estimated
 Reduction in transmission after 17 March 2020 | `r 1e2*round(1 - est_kappa[1], 2)`% (95% CI: `r 1e2*round(1 - est_kappa[3], 2)`%-`r 1e2*round(1 - est_kappa[2], 2)`%) | Estimated
@@ -270,3 +270,7 @@ abline(v = max(reported$date), lty = 2)
 - 14 Apr 2020: Updated model structure and parameters.
 - 9 Apr 2020: Updated model structure and parameters. Data allows to estimate the reduction in transmission after the strengthening of social distancing measures.
 - 24 Mar 2020: Shortening the generation time from 7.5 days ([Li et al.](https://doi.org/10.1056/NEJMoa2001316)) to 5.2 days ([Ganyani et al.](https://www.medrxiv.org/content/10.1101/2020.03.05.20031815v1)) results in a lower estimate of $R_0$, and consequently more optimistic projections about epidemic control.
+
+
+### Funding
+This project receives funding from the European Union's Horizon 2020 research and innovation programme - project EpiPose (No 101003688).
