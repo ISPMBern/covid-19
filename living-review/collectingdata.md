@@ -14,7 +14,7 @@ From 01.04.2020, we retrieve the currate BioRxiv/MedRxiv dataset [Link](https://
 
 MEDLINE:
 
-``(\"Wuhan coronavirus\" [Supplementary Concept] OR \"COVID-19\" OR \"2019 ncov\"[tiab] OR ((\"novel coronavirus\"[tiab] OR \"new coronavirus\"[tiab]) AND (wuhan[tiab] OR 2019[tiab])) OR 2019-nCoV[All Fields] OR (wuhan[tiab] AND coronavirus[tiab])))))``
+``("Wuhan coronavirus" [Supplementary Concept] OR "COVID-19" OR SARS-CoV-2 OR "2019 ncov"[tiab] OR (("novel coronavirus"[tiab] OR "new coronavirus"[tiab]) AND (wuhan[tiab] OR 2019[tiab])) OR 2019-nCoV[All Fields] OR (wuhan[tiab] AND coronavirus[tiab]))``
 
 EMBASE:
 
