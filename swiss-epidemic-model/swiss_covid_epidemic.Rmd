@@ -204,10 +204,10 @@ plot(timepoints2, diff(sim$C),
      col = cols[4],
      xlab = NA, ylab = "Daily number of infections", main = "Daily infections (by onset)", frame = FALSE)
 polygon(x = c(timepoints2, rev(timepoints2)), y = c(mod_CI[1,], rev(mod_CI[2,])), col = t.cols[4], border = NA)
-points(reported$date, reported$confirmed, pch = 22, bg = "gray")
 abline(v = lockdown, lty = 3)
 abline(v = relaxation, lty = 3)
 abline(v = max(reported$date), lty = 2)
+points(reported$date - 5, reported$confirmed, pch = 22, bg = "gray")
 
 plot(timepoints1, sim$C,
      ylim = c(0, 2e5),
@@ -225,10 +225,10 @@ plot(timepoints1, sim$H1 + sim$H2 + sim$U,
      col = cols[3],
      xlab = NA, ylab = "Number of hospitalized patients", main = "Hospitalization", frame = FALSE)
 polygon(x = c(timepoints1, rev(timepoints1)), y = c(mod_HU[1,], rev(mod_HU[2,])), col = t.cols[3], border = NA)
-points(reported$date, reported$hospitalized, pch = 22, bg = "gray")
 abline(v = lockdown, lty = 3)
 abline(v = relaxation, lty = 3)
 abline(v = max(reported$date), lty = 2)
+points(reported$date, reported$hospitalized, pch = 22, bg = "gray")
 
 plot(timepoints1, sim$U,
      ylim = c(0, 1e3),
@@ -236,10 +236,10 @@ plot(timepoints1, sim$U,
      col = cols[2],
      xlab = NA, ylab = "Number of patients in ICU", main = "ICU", frame = FALSE)
 polygon(x = c(timepoints1, rev(timepoints1)), y = c(mod_U[1,], rev(mod_U[2,])), col = t.cols[2], border = NA)
-points(reported$date, reported$icu, pch = 22, bg = "gray")
 abline(v = lockdown, lty = 3)
 abline(v = relaxation, lty = 3)
 abline(v = max(reported$date), lty = 2)
+points(reported$date, reported$icu, pch = 22, bg = "gray")
 
 plot(timepoints2, diff(sim$D),
      ylim = c(0, 8e1),
@@ -247,10 +247,10 @@ plot(timepoints2, diff(sim$D),
      col = cols[1],
      xlab = NA, ylab = "Daily number of deaths", main = "Daily deaths", frame = FALSE)
 polygon(x = c(timepoints2, rev(timepoints2)), y = c(mod_DI[1,], rev(mod_DI[2,])), col = t.cols[1], border = NA)
-points(reported$date, reported$deceased, pch = 21, bg = "white")
 abline(v = lockdown, lty = 3)
 abline(v = relaxation, lty = 3)
 abline(v = max(reported$date), lty = 2)
+points(reported$date, reported$deceased, pch = 21, bg = "white")
 
 plot(timepoints1, sim$D,
      ylim = c(0, 2e3),
@@ -258,13 +258,13 @@ plot(timepoints1, sim$D,
      col = cols[1],
      xlab = NA, ylab = "Cumulative number of deaths", main = "Total deaths", frame = FALSE)
 polygon(x = c(timepoints1, rev(timepoints1)), y = c(mod_D[1,], rev(mod_D[2,])), col = t.cols[1], border = NA)
-points(reported$date, cumsum(reported$deceased), pch = 21, bg = "white")
 abline(v = lockdown, lty = 3)
 abline(v = relaxation, lty = 3)
 abline(v = max(reported$date), lty = 2)
+points(reported$date, cumsum(reported$deceased), pch = 21, bg = "white")
 ```
 
-**Figure. Projected numbers of infections, hospitalizations, patients in ICU and deaths for the COVID-19 epidemic in Switzerland.** The model was fitted to daily numbers of reported deaths (white circles). Data about confirmed cases (by date of report), hospitalizations, and patients in ICU are shown for validation (gray squares). Vertical dotted and dashed lines indicate the time points of the strengthening and planned relaxation of social distancing measures (17 Mar 2020 and 26 Apr 2020, respectively) and the last data point (`r day(max(reported$date))` `r month(max(reported$date), label = TRUE)` `r year(max(reported$date))`). Note the logarithmic vertical axis for the number of daily infections.
+**Figure. Projected numbers of infections, hospitalizations, patients in ICU and deaths for the COVID-19 epidemic in Switzerland.** The model was fitted to daily numbers of reported deaths (white circles). Data of confirmed cases are shifted by 5 days to account for the reporting delay. Data about hospitalizations and patients in ICU are shown for validation (gray squares). Vertical dotted and dashed lines indicate the time points of the strengthening and planned relaxation of social distancing measures (17 Mar 2020 and 26 Apr 2020, respectively) and the last data point (`r day(max(reported$date))` `r month(max(reported$date), label = TRUE)` `r year(max(reported$date))`). Note the logarithmic vertical axis for the number of daily infections.
 
 ### Notes
 - 14 Apr 2020: Updated model structure and parameters.
