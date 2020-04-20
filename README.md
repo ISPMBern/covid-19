@@ -1,8 +1,8 @@
 # Coronavirus Disease 2019 (COVID-19) Resources
 
-### [Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch), Switzerland
+**[Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch)**
 
-![](images/covid19.png)
+![](images/bag.png)
 
 > You cannot fight a fire blindfolded. And we cannot stop this pandemic if we don’t know who is infected.
 
@@ -15,17 +15,17 @@ During this international public health emergency, the Institute of Social and P
 
 ## Projects
 ### Ongoing
-* [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
 * [EpiPose -  Epidemic intelligence to minimize 2019-nCoV’s public health, economic and social impact in Europe](https://ec.europa.eu/info/sites/info/files/research_and_innovation/research_by_area/documents/ec_rtd_cv-projects.pdf)
-* [Living evidence on COVID-19](living-review/)
-* [Daily reporting on COVID-19](reports/)
+  + [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
+  + [Living Evidence on COVID-19](living-review/)
+* [COVID-19 reports by ISPM](reports/)
 
 ### Completed
 * [Estimating case fatality ratio of COVID-19 from observed cases outside China](https://github.com/calthaus/ncov-cfr)
 
 ## Publications
 
-* Gonzalez-Jaramillo N, Low N & Francoa OH. [The double burden of disease of COVID-19 in cardiovascular patients: overlapping conditions could lead to overlapping treatments](https://doi.org/10.1007/s10654-020-00628-1) Eur. J. Epidemiol. 2020 Apr 15.
+* Gonzalez-Jaramillo N, Low N, Franco OH. [The double burden of disease of COVID-19 in cardiovascular patients: overlapping conditions could lead to overlapping treatments](https://doi.org/10.1007/s10654-020-00628-1) Eur J Epidemiol. 2020 Apr 15.
 
 >Coronavirus disease 2019 (COVID-19) pandemic imposes a double burden on people with cardiovascular disease (CVD). About 40% of hospitalized COVID-19 patients have CVD [1] and the clinical course of COVID-19 is more severe in patients with hypertension, diabetes, and CVD [2]. COVID-19 mortality increases with comorbidities and age [3]. Correct evaluation of this double burden is challenged by three gaps in our knowledge: (1) the unknown confounding effect of age on mortality of CVD/COVID-19 patients, (2) the not fully understood effects of COVID-19 on the cardiovascular system, and (3) how antihypertensive medications targeting the renin–angiotensin system (RAS) might be associated with the severity of and survival to COVID-19 in CVD patients.
 
