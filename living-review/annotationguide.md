@@ -1,6 +1,6 @@
-20200424 Mert, Michel, description study designs COVID-19 crowd.
+Version: 24.04.2020
 
-_Description of the document: This paper aims to be used as training material for the crowd. It will help the participants to identify study designs with brief study descriptions and some tips._
+_Description of the document: This document is used as training material for the [COVID-19 screening](screening.html) crowd. It will help the participants to identify study designs with brief study descriptions and some tips._
 
 # Epidemiological study designs:
 
