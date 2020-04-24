@@ -20,6 +20,7 @@ On this website, we explain how we set up a *Living Systematic Review* that can:
 * Allow crowd-distributed screening
 * Create flexible output in RShiny ([like this](https://zika.ispm.unibe.ch/assets/data/pub/ncov/))
 * Create annotated reference lists to be used for other systematic reviews
+* Searchable version in RShiny ([like this](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/))
 
 ## Living systematic reviews & living evidence
 
