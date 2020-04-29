@@ -6,11 +6,19 @@ We retrieve data from [EMBASE](http://www.embase.com) via OVID, [MEDLINE](https:
 
 ## Search terms
 
+When searches are updated, references that are identified that were not in the database before, are inserted by date (**date_entrez**) they were indexed in remote database, the date they are inserted in OUR database is formatted as the '**strategydate**' (raw data is available [here](https://github.com/ZikaProject/COVID_references)).
+
+### 29.04.2020
+
+MEDLINE:
+
+``("coronavirus"[MH] OR "coronavirus infections"[MH] OR "coronavirus"[TW] OR "corona virus"[TW] OR "HCoV"[TW] OR "nCov"[TW] OR "covid"[TW] OR "covid19"[TW] OR "Severe Acute Respiratory Syndrome Coronavirus 2"[TW] OR "SARS-CoV2"[TW] OR "SARS-CoV 2"[TW] OR "SARS Coronavirus 2"[TW] OR "MERS-CoV"[TW]) AND (2019/1/1:3000[PDAT])``
+
 ### 01.04.2020
 
 From 01.04.2020, we retrieve the currate BioRxiv/MedRxiv dataset [Link](https://connect.medrxiv.org/relate/content/181)
 
-### 26.03.2020-31.03.2020
+### 26.03.2020
 
 MEDLINE:
 
@@ -26,7 +34,7 @@ BioRxiv/MedRxiv:
 
 With the kind support of the [Public Health & Primary Care Library PHC](https://www.unibe.ch/university/services/university_library/faculty_libraries/medicine/public_health_amp_primary_care_library_phc/index_eng.html), and following guidance of the [Medical Library Association](https://www.mlanet.org/p/cm/ld/fid=1713)
 
-### 01.01.2020-25.03.2020
+### 01.01.2020
 
 MEDLINE:
 
