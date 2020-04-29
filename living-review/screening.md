@@ -3,11 +3,22 @@ index: [[**HOME**](index.html)] [[**Collecting data**](collectingdata.html)] [[*
 # Screening and annotation of citations
 When unique records are entered into the database, they are ready to be screening on eligibility and to be classified.
 
+## Annotation
+
+We currently annotate, with the help of a 'crowd', the publications based on:
+* Are they about SARS-CoV-2/COVID-19?
+* What is the study design? [annotation guide](annotationguide)
+* For epidemiological studies: in which country/countries are they conducted?
+
 ## Purpose of the screening
 * Allows other research groups to start with a curated dataset
 * Serves as training set (machine learning, classification)
 * Allows us to track the accumulation of evidence over time (similar to [Counotte et al.](https://www.medrxiv.org/content/10.1101/2020.03.16.20036806v1))
 * Preselection according to inclusion criteria
+
+## 'Crowd' eligibility
+
+People who are confidently able to differentiate between different study designs are welcomed to join the 'crowd'. When potential contributors are unsure they are able to do the work, they can take a test: https://zika.ispm.unibe.ch/assets/data/pub/crowd_selection/
 
 ## Work distribution: using a 'crowd'
 To be able to distribute screening tasks to a 'crowd', we build a shiny app that communicates with the central database. Records are attibuted to members of the crowd for screening. When the task is completed, the decisions are verified by a second member of the crowd. Disagreement is resolved by the coordinator or by a third crowd member (Figure 1).
