@@ -8,6 +8,12 @@ We retrieve data from [EMBASE](http://www.embase.com) via OVID, [MEDLINE](https:
 
 When searches are updated, references that are identified that were not in the database before, are inserted by date (**date_entrez**) they were indexed in remote database, the date they are inserted in OUR database is formatted as the '**strategydate**' (raw data is available [here](https://github.com/ZikaProject/COVID_references)).
 
+### 01.05.2020
+
+EMBASE:
+
+``(SARS coronavirus/ or middle east respiratory syndrome/ or severe acute respiratory syndrome/ or (coronavirus* or corona virus* or HCoV* or ncov* or covid or covid19 or sars-cov* or sarscov* or Sars-coronavirus* or Severe Acute Respiratory Syndrome Coronavirus*).mp.) and 20191201:20301231.(dc).``
+
 ### 29.04.2020
 
 MEDLINE:
