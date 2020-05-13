@@ -2,7 +2,7 @@
 
 **[Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch)**
 
-[![](images/DailyResLivEv_13_05.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
+![](images/bag.png)
 
 > You cannot fight a fire blindfolded. And we cannot stop this pandemic if we don’t know who is infected.
 
