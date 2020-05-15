@@ -27,3 +27,7 @@ To be able to distribute screening tasks to a 'crowd', we build a shiny app that
 **Figure 1. The workflow of screening and verification tasks. Crowd members are represented by numbered hexagons.**
 
 The [screening app](screening_app_manual/index.html) offers a login-protected environment that communicates with the central database. Crowd members are presented with citation information and are asked to make several decisions. Their decisions are submitted to the database.
+
+## Rapid screening using a R Shiny app
+
+To accelerate the screening and verification of publications, we built a simple shiny app. This loads references and displays these to the reviewers. They execute their tasks in the shiny environment and decisions are logged into the central database. A demo of a simple screening app can be found [here](https://zika.ispm.unibe.ch/assets/data/pub/screening_demo/) and the source code is available [here](https://github.com/ZikaProject/ShinyScreeningExample).
