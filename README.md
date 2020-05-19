@@ -48,8 +48,8 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 ## Links to other resources
 ### Related to Switzerland
 * [Situation report](https://ncs-tf.ch/en/situation-report), Swiss National COVID-19 Science Task Force
-* [Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19](https://imperialcollegelondon.github.io/covid19estimates/#/details/Switzerland), Imperial College
-* [Temporal variation in transmission during the COVID-19 outbreak](https://cmmid.github.io/topics/covid19/current-patterns-transmission/global-time-varying-transmission.html), London School of Hygiene & Tropical Medicine
+* [Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19](https://mrc-ide.github.io/covid19estimates/#/details/Switzerland), Imperial College
+* [Temporal variation in transmission during the COVID-19 outbreak](https://epiforecasts.io/covid/), London School of Hygiene & Tropical Medicine
 * [COVID-19 Scenarios](https://covid19-scenarios.org), University of Basel
 * [Specialist Unit for Open Government Data Canton of Zurich](https://github.com/openZH/covid_19)
 * [Corona-Data](https://www.corona-data.ch) by [Daniel Probst](https://github.com/daenuprobst/covid19-cases-switzerland)
