@@ -2,11 +2,11 @@
 
 **[Institute of Social and Preventive Medicine (ISPM)](https://www.ispm.unibe.ch), [University of Bern](https://www.unibe.ch)**
 
-[![](https://zika.ispm.unibe.ch/COVID19/DailyImage.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
-
 > You cannot fight a fire blindfolded. And we cannot stop this pandemic if we don’t know who is infected.
 
 -Dr. Tedros Adhanom Ghebreyesus, Director-General, World Health Organization (WHO), 16 March 2020
+
+[![](https://zika.ispm.unibe.ch/COVID19/DailyImage.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
 
 ## About
 On 31 December 2019, the World Health Organization was notified about a cluster of pneumonia of unknown origin in the city of Wuhan, China. Chinese authorities later identified a novel coronavirus (SARS-CoV-2) as the causative agent of the outbreak. After the coronavirus disease 2019 (COVID-19) outbreak spread to multiple countries across the globe, including Switzerland, the World Health Organization recognized it as a pandemic on 11 March 2020.
@@ -15,9 +15,10 @@ During this international public health emergency, the Institute of Social and P
 
 ## Projects
 ### Ongoing
-* [EpiPose -  Epidemic intelligence to minimize 2019-nCoV’s public health, economic and social impact in Europe](https://ec.europa.eu/info/sites/info/files/research_and_innovation/research_by_area/documents/ec_rtd_cv-projects.pdf)
+* [EpiPose -  Epidemic intelligence to minimize 2019-nCoV’s public health, economic and social impact in Europe](https://www.uhasselt.be/UH/DSI/Research/DSI-covid-19-en/H2020-Epipose-project-on-COVID-19)
   + [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
   + [Living Evidence on COVID-19](living-review/)
+* [Tracking the COVID-19 epidemic in Switzerland: phylogenetics and epidemiological modeling](https://data.snf.ch/covid-19/snsf/196046)
 * [COVID-19 reports by ISPM](reports/)
 
 ### Completed
@@ -46,15 +47,12 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 
 ## Links to other resources
 ### Related to Switzerland
-* [Switzerland COVID-19 Scenario Report](https://jcblemai.github.io), École polytechnique fédérale de Lausanne (EPFL)
-* [Monitoring COVID-19 spread in Switzerland](https://bsse.ethz.ch/cevo/research/sars-cov-2/real-time-monitoring-in-switzerland.html), ETH Zurich
+* [Situation report](https://ncs-tf.ch/en/situation-report), Swiss National COVID-19 Science Task Force
 * [Estimating the number of infections and the impact of non-pharmaceutical interventions on COVID-19](https://imperialcollegelondon.github.io/covid19estimates/#/details/Switzerland), Imperial College
 * [Temporal variation in transmission during the COVID-19 outbreak](https://cmmid.github.io/topics/covid19/current-patterns-transmission/global-time-varying-transmission.html), London School of Hygiene & Tropical Medicine
 * [COVID-19 Scenarios](https://covid19-scenarios.org), University of Basel
 * [Specialist Unit for Open Government Data Canton of Zurich](https://github.com/openZH/covid_19)
 * [Corona-Data](https://www.corona-data.ch) by [Daniel Probst](https://github.com/daenuprobst/covid19-cases-switzerland)
-* [#COVIDMonitor Europe	](https://rastrau.shinyapps.io/covid-eu/)
-* [COVID-19 Social Monitor](https://www.zhaw.ch/de/sml/institute-zentren/wig/projekte/covid-19-social-monitor/), ZHAW Zurich University of Applied Sciences
 
 ### International research groups
 * [Centre for the Mathematical Modelling of Infectious Diseases](https://cmmid.github.io/topics/covid19/)
@@ -65,10 +63,10 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 * [CEID Coronavirus Working Group](http://2019-coronavirus-tracker.com/index.html)
 
 ### National and international public health agencies
-* [World Health Organization (WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
+* [Swiss Federal Office for Public Health (FOPH)](https://www.bag.admin.ch/bag/de/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov.html)
 * [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en/novel-coronavirus-china)
 * [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-nCoV/index.html)
-* [Swiss Federal Office for Public Health (FOPH)](https://www.bag.admin.ch/bag/de/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov.html)
+* [World Health Organization (WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 
 ## Media coverage
 
