@@ -26,6 +26,8 @@ During this international public health emergency, the Institute of Social and P
 
 ## Publications
 
+* Chowdhury R, Heng K, Shawon MSR, Goh G, Okonofua D, Ochoa-Rosales C, et al. [Dynamic interventions to control COVID-19 pandemic: a multivariate prediction modelling study comparing 16 worldwide countries.](https://doi.org/10.1007/s10654-020-00649-w) Eur J Epidemiol. 2020 May 20.
+
 * Buitrago-Garcia DC, Egli-Gany D, Counotte MJ, Hossmann S, Imeri H, Salanti G, Low N. [The role of asymptomatic SARS-CoV-2 infections: rapid living systematic review and meta-analysis](https://doi.org/10.1101/2020.04.25.20079103) medRxiv. 2020.04.25.20079103
 
 * Gonzalez-Jaramillo N, Low N, Franco OH. [The double burden of disease of COVID-19 in cardiovascular patients: overlapping conditions could lead to overlapping treatments](https://doi.org/10.1007/s10654-020-00628-1) Eur J Epidemiol. 2020 Apr 15.
@@ -34,7 +36,7 @@ During this international public health emergency, the Institute of Social and P
 
 * Hauser A, Counotte MJ, Margossian CC, Konstantinoudis G, Low N, Althaus CL, Riou J. [Estimation of SARS-CoV-2 mortality during the early stages of an epidemic: a modelling study in Hubei, China and northern Italy.](https://doi.org/10.1101/2020.03.04.20031104) medRxiv. 2020;03.04.20031104.
 
-* Salathé M, Althaus CL, Neher R, Stringhini S, Hodcroft E, et al. [COVID-19 epidemic in Switzerland: on the importance of testing, contact tracing and isolation.](https://doi.org/10.4414/smw.2020.20225) Swiss Med Wkly. 2020 Mar 19;150:w20225.
+* Salathé M, Althaus CL, Neher R, Stringhini S, Hodcroft E, Fellay J, et al. [COVID-19 epidemic in Switzerland: on the importance of testing, contact tracing and isolation.](https://doi.org/10.4414/smw.2020.20225) Swiss Med Wkly. 2020 Mar 19;150:w20225.
 
 * Riou J, Althaus CL. [Pattern of early human-to-human transmission of Wuhan 2019 novel coronavirus (2019-nCoV), December 2019 to January 2020.](https://doi.org/10.2807/1560-7917.ES.2020.25.4.2000058) Euro Surveill. 2020 Jan;25(4).
 
