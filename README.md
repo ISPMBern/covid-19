@@ -75,12 +75,16 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-mCVmOO1g-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Television
+* 3sat - nano (2 June 2020): [Das Phänomen "Superspreader"](https://www.3sat.de/wissen/nano/200602-superspreader-100.html)
 * TeleZüri - TalkTäglich (23 March 2020): [Grosser Ansturm auf die Spitäler](https://www.telezueri.ch/talktaeglich/grosser-ansturm-auf-die-spitaeler-136820151)
 * SRF - Club (17 March 2020): [Corona - Der Ernstfall](https://www.srf.ch/play/tv/club/video/im-club-corona---der-ernstfall?id=411f318d-7528-48f7-bb1d-2c875710f47f)
 * RTS - Forum (6 March 2020): [L’analyse de Julien Riou sur l’évolution du coronavirus en Suisse](https://www.rts.ch/play/tv/forum-video/video/lanalyse-de-julien-riou-sur-levolution-du-coronavirus-en-suisse-video?id=11146010)
 * TeleZüri - TalkTäglich (24 February 2020): [Kommt das Coronavirus in die Schweiz?](https://www.telezueri.ch/talktaeglich/kommt-das-coronavirus-in-die-schweiz-136362081)
 * SRF - Einstein (13 February 2020): [Corona-Virus: «Das Potenzial einer Pandemie besteht»](https://www.srf.ch/kultur/wissen/interview-mit-epidemiologen-corona-virus-das-potenzial-einer-pandemie-besteht?ns_source=mobile&srg_sm_medium=tw)
 * TeleZüri - TalkTäglich (27 January 2020): [Coronavirus auf dem Vormarsch](https://www.telezueri.ch/talktaeglich/coronavirus-auf-dem-vormarsch-136226159)
+
+#### Information in Spanish
+* France 24: [Covid-19: Consulta con el Médico](https://www.france24.com/es/programas/covid-19-consulta-con-el-médico/)
 
 ### Radio/Podcast
 * NZZ am Sonntag: [Corona-Talk](https://nzzas.nzz.ch/notizen/corona-talk-mit-dem-epidemiologen-christian-althaus-ld.1548957)
