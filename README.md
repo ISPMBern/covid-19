@@ -75,6 +75,7 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-mCVmOO1g-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Television
+* 3sat - nano (2 June 2020): [Das Phänomen "Superspreader"](https://www.3sat.de/wissen/nano/200602-superspreader-100.html)
 * TeleZüri - TalkTäglich (23 March 2020): [Grosser Ansturm auf die Spitäler](https://www.telezueri.ch/talktaeglich/grosser-ansturm-auf-die-spitaeler-136820151)
 * SRF - Club (17 March 2020): [Corona - Der Ernstfall](https://www.srf.ch/play/tv/club/video/im-club-corona---der-ernstfall?id=411f318d-7528-48f7-bb1d-2c875710f47f)
 * RTS - Forum (6 March 2020): [L’analyse de Julien Riou sur l’évolution du coronavirus en Suisse](https://www.rts.ch/play/tv/forum-video/video/lanalyse-de-julien-riou-sur-levolution-du-coronavirus-en-suisse-video?id=11146010)
