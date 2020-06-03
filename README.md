@@ -82,6 +82,9 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 * SRF - Einstein (13 February 2020): [Corona-Virus: «Das Potenzial einer Pandemie besteht»](https://www.srf.ch/kultur/wissen/interview-mit-epidemiologen-corona-virus-das-potenzial-einer-pandemie-besteht?ns_source=mobile&srg_sm_medium=tw)
 * TeleZüri - TalkTäglich (27 January 2020): [Coronavirus auf dem Vormarsch](https://www.telezueri.ch/talktaeglich/coronavirus-auf-dem-vormarsch-136226159)
 
+#### Information in Spanish
+* France 24: [Covid-19: Consulta con el Médico](https://www.france24.com/es/programas/covid-19-consulta-con-el-médico/)
+
 ### Radio/Podcast
 * NZZ am Sonntag: [Corona-Talk](https://nzzas.nzz.ch/notizen/corona-talk-mit-dem-epidemiologen-christian-althaus-ld.1548957)
 * SRF - Tagesgespräch (13 March 2020): [Corona-Verbreitung verlangsamen, aber wie?](https://www.srf.ch/sendungen/tagesgespraech/christian-althaus-corona-verbreitung-verlangsamen-aber-wie)
