@@ -1,5 +1,6 @@
 # COVID-19 reports by [ISPM](https://www.ispm.unibe.ch)
 
+* [10-06-2020](/CoronavirusNews_10.06.pdf)
 * [09-06-2020](/CoronavirusNews_09.06.pdf)
 * [08-06-2020](/CoronavirusNews_08.06.pdf)
 * [05-06-2020](/CoronavirusNews_05.06.pdf)
