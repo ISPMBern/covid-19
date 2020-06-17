@@ -43,3 +43,19 @@ For additional questions email: **michel.counotte[at]ispm.unibe.ch**
 Funding acquisition: [Prof. Nicola Low](https://www.ispm.unibe.ch/about_us/staff/low_nicola/index_eng.html)
 
 Funded by the [SNF](http://p3.snf.ch/project-176233)
+
+## Citation
+
+If you use our dataset, please cite it:
+
+[Download RIS citation](citation_livingevidence.RIS)
+
+```
+@misc{
+   author = {Counotte, M. J. and Imeri, H. and Ipekci, M. and Low, N.},
+   title = {Living Evidence on COVID-19},
+   url = {https://ispmbern.github.io/covid-19/living-review/},
+   year = {2020},
+   type = {Web Page}
+}
+```
