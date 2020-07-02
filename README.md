@@ -7,7 +7,6 @@
 -Dr. Tedros Adhanom Ghebreyesus, Director-General, World Health Organization (WHO), 16 March 2020
 
 [![](https://zika.ispm.unibe.ch/COVID19/DailyImage.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
-
 [![](https://zika.ispm.unibe.ch/COVID19/CrowdDailyImage.png)](https://zika.ispm.unibe.ch/COVID19/DailyReport.html)
 
 ## About
