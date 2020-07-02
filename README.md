@@ -8,6 +8,9 @@
 
 [![](https://zika.ispm.unibe.ch/COVID19/DailyImage.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
 
+[![](https://zika.ispm.unibe.ch/COVID19/CrowdDailyImage.png)](https://zika.ispm.unibe.ch/COVID19/DailyReport.html)
+
+
 ## About
 On 31 December 2019, the World Health Organization was notified about a cluster of pneumonia of unknown origin in the city of Wuhan, China. Chinese authorities later identified a novel coronavirus (SARS-CoV-2) as the causative agent of the outbreak. After the coronavirus disease 2019 (COVID-19) outbreak spread to multiple countries across the globe, including Switzerland, the World Health Organization recognized it as a pandemic on 11 March 2020.
 
