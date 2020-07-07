@@ -20,12 +20,21 @@ During this international public health emergency, the Institute of Social and P
   + [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
   + [Living Evidence on COVID-19](living-review/)
 * [Tracking the COVID-19 epidemic in Switzerland: phylogenetics and epidemiological modeling](https://data.snf.ch/covid-19/snsf/196046)
+* Assessing Critical Health Literacy in the Covid-19 pandemic - An empirical study using data from 4 Swiss univeristies (as part of the multi-national Covid-19 International Student Well-being Study.
 * [COVID-19 reports by ISPM](reports/)
 
 ### Completed
 * [Estimating case fatality ratio of COVID-19 from observed cases outside China](https://github.com/calthaus/ncov-cfr)
 
 ## Publications
+
+* Abel T. COVID-19. Éducation à la santé et coresponsabilité. In F. Gamba, M. Nardone, T. Ricciardi & S. Cattacin (Hrsg.), COVID-19 – Le regard des sciences sociales, (S. 293-300). Genève et Zurich: Seismo. 
+
+* Abel T. [Gesundheitskompetenz und die Corona-Krise.](https://doi.org/10.1055/a-1099-8110) Gesundheitswesen. 2020 Apr;82(4):301-302.
+
+* Abel T, McQueen D. [The COVID-19 pandemic calls for spatial distancing and social closeness: not for social distancing!](https://doi.org/10.1007/s00038-020-01366-7) Int J Public Health. 2020 Apr;65(3):231.
+
+* Abel T, McQueen D. [Critical health literacy and the COVID-19 crisis.](https://doi.org/10.1093/heapro/daaa040) Health Promot Int. 2020 Apr 2:daaa040.
 
 * Chowdhury R, Heng K, Shawon MSR, Goh G, Okonofua D, Ochoa-Rosales C, et al. [Dynamic interventions to control COVID-19 pandemic: a multivariate prediction modelling study comparing 16 worldwide countries.](https://doi.org/10.1007/s10654-020-00649-w) Eur J Epidemiol. 2020 May 20.
 
