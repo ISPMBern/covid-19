@@ -5,8 +5,7 @@
 > You cannot fight a fire blindfolded. And we cannot stop this pandemic if we don’t know who is infected.
 
 -Dr. Tedros Adhanom Ghebreyesus, Director-General, World Health Organization (WHO), 16 March 2020
-![coap logo](https://zika.ispm.unibe.ch/COVID19/Logo_COAP.jpg)
-[![](https://zika.ispm.unibe.ch/COVID19/DailyImage.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
+![coap logo](https://zika.ispm.unibe.ch/COVID19/Logo_COAP.jpg=170x80) [![](https://zika.ispm.unibe.ch/COVID19/DailyImage.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
 [![](https://zika.ispm.unibe.ch/COVID19/CrowdDailyImage.png)](https://zika.ispm.unibe.ch/COVID19/DailyReport.html)
 
 ## About
