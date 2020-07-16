@@ -6,7 +6,7 @@
 
 -Dr. Tedros Adhanom Ghebreyesus, Director-General, World Health Organization (WHO), 16 March 2020
 
-![coap logo](https://zika.ispm.unibe.ch/COVID19/Logo_COAP.jpg =170x80)
+![coap logo](https://zika.ispm.unibe.ch/COVID19/Logo_COAP.jpg)
 [![](https://zika.ispm.unibe.ch/COVID19/CrowdDailyImage.png)](https://zika.ispm.unibe.ch/COVID19/DailyReport.html)
 
 ## About
