@@ -1,6 +1,7 @@
 index: [**HOME**] [[**Collecting data**](collectingdata.html)] [[**Deduplication**](deduplication.html)] [[**Screening**](screening.html)]
 
-![coap logo](https://zika.ispm.unibe.ch/COVID19/Logo_COAP.jpg =170x80) # Living Evidence on COVID-19
+<img align="left" width="80" height="80" src="https://zika.ispm.unibe.ch/COVID19/Logo_COAP.jpg =170x80" alt="COAP">
+# Living Evidence on COVID-19
 
 **Contributors:** [Michel Counotte](https://www.ispm.unibe.ch/about_us/staff/counotte_michel/index_eng.html), [Hira Imeri](https://www.ispm.unibe.ch/about_us/staff/imeri_hira/index_eng.html), [Aziz Mert Ipekci](https://www.ispm.unibe.ch/about_us/staff/ipekci_mert/index_eng.html), [Nicola Low](https://www.ispm.unibe.ch/about_us/staff/low_nicola/index_eng.html)
 
