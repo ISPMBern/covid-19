@@ -8,6 +8,7 @@
 
 ![coap logo](https://zika.ispm.unibe.ch/COVID19/Logo_COAP.jpg)
 [![](https://zika.ispm.unibe.ch/COVID19/DailyImage.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
+
 [![](https://zika.ispm.unibe.ch/COVID19/CrowdDailyImage.png)](https://zika.ispm.unibe.ch/COVID19/DailyReport.html)
 
 ## About
