@@ -1,6 +1,6 @@
 index: [**HOME**] [[**Collecting data**](collectingdata.html)] [[**Deduplication**](deduplication.html)] [[**Screening**](screening.html)]
 
-<img align="left" width="80" height="80" src="https://zika.ispm.unibe.ch/COVID19/Logo_COAP.jpg" alt="COAP">
+<img align="left" width="165" height="57" src="https://zika.ispm.unibe.ch/COVID19/Logo_COAP.jpg" alt="COAP">
 # Living Evidence on COVID-19
 
 
