@@ -54,7 +54,7 @@ If you use our dataset, please cite it:
 
 ```
 @misc{
-   author = {Counotte, M. J. and Imeri, H. and Ipekci, M. and Low, N.},
+   author = {COVID-19 Open Access Project},
    title = {Living Evidence on COVID-19},
    url = {https://ispmbern.github.io/covid-19/living-review/},
    year = {2020},
