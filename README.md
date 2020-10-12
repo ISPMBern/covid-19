@@ -98,7 +98,7 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 #### Information in Spanish
 * France 24: [Covid-19: Consulta con el Médico](https://www.france24.com/es/programas/covid-19-consulta-con-el-médico/)
 
-#### Talks
+#### Talk
 * WHO/GOARN Global Consultation on Contact Tracing for COVID-19 (7 Oct 2020): [Contact tracing for COVID-19](/Forward_backward_WHO_201007.pdf)
 
 ### Radio/Podcast
