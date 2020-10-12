@@ -98,6 +98,9 @@ Several researchers of the Institute of Social and Preventive Medicine are membe
 #### Information in Spanish
 * France 24: [Covid-19: Consulta con el Médico](https://www.france24.com/es/programas/covid-19-consulta-con-el-médico/)
 
+#### Talks
+* WHO/GOARN Global Consultation on Contact Tracing for COVID-19 (7 Oct 2020): [Contact tracing for COVID-19](/Forward_backward_WHO_201007.pdf)
+
 ### Radio/Podcast
 * NZZ am Sonntag: [Corona-Talk](https://nzzas.nzz.ch/notizen/corona-talk-mit-dem-epidemiologen-christian-althaus-ld.1548957)
 * SRF - Tagesgespräch (13 March 2020): [Corona-Verbreitung verlangsamen, aber wie?](https://www.srf.ch/sendungen/tagesgespraech/christian-althaus-corona-verbreitung-verlangsamen-aber-wie)
