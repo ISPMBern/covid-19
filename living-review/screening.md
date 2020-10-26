@@ -23,7 +23,7 @@ People who are confidently able to differentiate between different study designs
 ## Work distribution: using a 'crowd'
 To be able to distribute screening tasks to a 'crowd', we build a shiny app that communicates with the central database. Records are attibuted to members of the crowd for screening. When the task is completed, the decisions are verified by a second member of the crowd. Disagreement is resolved by the coordinator or by a third crowd member (Figure 1).
 
-s
+![screening workflow](images/workflow_crowd.png)
 **Figure 1. The workflow of screening and verification tasks. Crowd members are represented by numbered hexagons.**
 
 The [screening app](screening_app_manual/index.html) offers a login-protected environment that communicates with the central database. Crowd members are presented with citation information and are asked to make several decisions. Their decisions are submitted to the database.
