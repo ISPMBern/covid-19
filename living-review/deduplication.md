@@ -6,6 +6,8 @@ We perform rule-based deduplication based on methods described [Jiang et al. (20
 
 ![Rule-score algorithm](images/flowchart_rules2.jpg)
 
+**Figure.** Flow chart of different rules to perform deduplication of bibliographic records.
+
 Additionally, we calculate score of similarity based on different algorithms (figure). This combination of rules and scores allows an efficient and accurate deduplication.
 
 These scores are used to predict the duplication status (duplicate/unique) of a know dataset. Thus, we need test data where duplicates are detected as a 'gold standard'. 
