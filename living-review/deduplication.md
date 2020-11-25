@@ -4,47 +4,24 @@ index: [[**HOME**](index.html)] [[**Collecting data**](collectingdata.html)] [**
 
 We perform rule-based deduplication based on methods described [Jiang et al. (2014)](https://academic.oup.com/database/article/doi/10.1093/database/bat086/2633762) and [Bramer et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915647/).
 
-Additionally, we calculate score of similarity based on different algorithms [more soon].
+![Rule-score algorithm](images/flowchart_rules2.jpg)
+
+Additionally, we calculate score of similarity based on different algorithms (figure). This combination of rules and scores allows an efficient and accurate deduplication.
 
 These scores are used to predict the duplication status (duplicate/unique) of a know dataset. Thus, we need test data where duplicates are detected as a 'gold standard'. 
 
 # Comparison of different methods 
 
-## Test data
+## Test data (gold standard)
 
-We prepared test data to evaluate the deduplication algorithm
+We prepared test data to evaluate the deduplication algorithm. Our ‘gold-standard’ set consisted of 2450 records, 1220 from Embase and 1230 from MEDLINE. Of the Embase records, 901/1220 had a or PMID; 859/1220 were identical to the MEDLINE set. 2391/2450 (97.6%) of the records had a DOI; fifty-nine did not. We identified 1075 duplicate pairs, which we considered ‘true’ duplicates. 2006 records were duplicates of at least one other record, 444 were unique records. Within MEDLINE, there were 13 duplicates, within EMBASE 44. The remaining 1018 records were duplicates between the two databases.
 
-## Data set 27.02.2020: 'Zika query' 
+## Performance
 
-Query comparison:
+| Algorithm        | True positives | False positives | False negatives |
+|------------------|----------------|-----------------|-----------------|
+| Bramer           | 1025/1075      | 52              | 39/1075         |
+| Score-based      | 1067/1075      | 23              | 8/1075          |
+| Blended (1,2,3)  | 1071/1075      | 12              | 4/1075          |
+| Blended (2,1,3)  | 1073/1075      | 9               | 2/1075          |
 
-query_embase = "(zika and guillain-barre).mp"
-
-PMquery="(zika and guillain-barre)"
-
-We run the queries both in OVID and Pubmed website number returned:
-
-Embase: 1163 (Embase through OVID -> exported as RIS)
-Pubmed:  728
-
-Note: Pubmed website returns nbib per 200 citations, merged in endnote and exported to RIS.
-
-Same queries are run in the APIs:
-
-Embase: 1163
-Pubmed:  726
-
-## Evaluating the performance of the deduplication algorithm
-
-Here, we compare the performance of our deduplication algorithm implemented in R with the 'gold standard': Deduplication in Endnote according to the protocol of [Bramer et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915647/). 
-For every record, we assess whether it was identified as part of a duplicate or as a unique record. We compare this against the Bramer method:
-
-| our algorithm | Bramer Duplicate |  Bramer Unique  |
-|---------------|-------------------|------------------|
-| Duplicate     | true positive     | false positive   |
-| Unique        | false negative    | true negative    |
-
-* Sensitivity: true positive/(true positive + false negative)
-* Specificity: true negative/(true negative + false postive)
-
-We want to avoid falsly identifying records as duplicates (false positives). This means we strive for a near perfect specificity. 
