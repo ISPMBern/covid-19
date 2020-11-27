@@ -38,6 +38,9 @@ Once we have clean reference data from the different sources, we perform [**dedu
 [Here](https://github.com/ZikaProject/COVID_references) you find the most current version of the reference data. This is the same data that is available through ([the shiny app](https://zika.ispm.unibe.ch/assets/data/pub/ncov/)).
 An preliminary version of annotated 'pre-screened' data is available on the [github](https://github.com/ZikaProject/COVID_references).
 
+### Formatting references
+[Here](https://github.com/ZikaProject/CitationParsers) you find some generic solutions to handle citation data between different formats (our format, RIS, BibTex, and EndNote).
+
 ## Contact information
 For additional questions email: **michel.counotte[at]ispm.unibe.ch**
 
