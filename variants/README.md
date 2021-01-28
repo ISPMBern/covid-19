@@ -16,6 +16,6 @@ Given that the effective reproduction number *R<sub>e</sub>* in Geneva was aroun
 
 - Martina Reichmuth, Emma Hodcroft, Julien Riou, Christian L. Althaus, [Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), University of Bern, Bern, Switzerland
 
-- Isabella Eckerle, Laurent Kaiser, [Geneva University Hospitals](https://www.hug.ch/en/), Geneva, Switzerland
+- Manuel Schibler, Isabella Eckerle, Laurent Kaiser, [Geneva University Hospitals](https://www.hug.ch/en/), Geneva, Switzerland
 
 - Richard Neher, [Biozentrum](https://www.biozentrum.unibas.ch/research/researchgroups/overview/unit/neher/), University of Basel, Basel, Switzerland
