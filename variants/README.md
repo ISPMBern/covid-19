@@ -11,7 +11,7 @@ The proportion of N501Y variants rapidly increases in Geneva. Due to the delay f
 
 Assuming that the effective reproduction number *R<sub>e</sub>* in Geneva was around 1 during December 2020 and January 2021 ([https://ibz-shiny.ethz.ch/covid-19-re-international/](https://ibz-shiny.ethz.ch/covid-19-re-international/)), we estimate a 33% (95% CI: 15%-56%) and 47% (95% CI: 21%-78%) increased transmissibility of N501Y variants compared to previously circulating variants, assuming a generation time of 5 and 7 days, respectively. These estimates are slighly lower than earlier findings for the UK ([Volz et al.](https://www.medrxiv.org/content/10.1101/2020.12.30.20249034v2), [Davies et al.](https://cmmid.github.io/topics/covid19/uk-novel-variant.html), [Leung et al.](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.26.1.2002106)). The further spread of N501Y will also depend on the overall epidemic dynamics of SARS-CoV-2 in Geneva.
 
-###Contributors:
+### Contributors:
 
 - Martina Reichmuth, Emma Hodcroft, Julien Riou, Christian L. Althaus, [Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), University of Bern, Bern, Switzerland
 
