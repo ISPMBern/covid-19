@@ -6,8 +6,7 @@ Three recently detected [variants](https://covariants.org) (B.1.1.7, B.1.351, P.
 
 Here, we aim at tracking the spread of these variants in the Swiss canton of Geneva. To this end, we analyze samples that were sent to the [Geneva University Hospitals](https://www.hug.ch/en/) for primary diagnosis of SARS-CoV-2. All positives were re-screened for N501Y using RT-PCR (the majority of N501Y samples belong to B.1.1.7 and only a minority are B.1.351). To cover the period of November and December 2020, we use sequence data from randomly chosen samples from Geneva that were submitted to [GISAID](https://www.gisaid.org) by  the [Swiss Viollier Sequencing Consortium](https://bsse.ethz.ch/cevo/research/sars-cov-2/swiss-sequencing-consortium---viollier.html) from ETH Zurich. The full data data set thus provides a rather representative picture of the spread of N501Y in Geneva (download [here](data/variants_GE.csv)). Nevertheless, samples could be biased towards higher coverage of N501Y due to current outbreak investigations.
 
-![](
-figures/variants_GE.png)
+![](figures/variants_GE.png)
 
 The proportion of N501Y variants rapidly increases in Geneva. Due to the delay from infection to sample collection, the shown increase reflects the epidemiological situation from one to two weeks ago. Fitting a logistic growth model to the data allows to describe the increase in the proportion of N501Y (see [Volz et al.](https://www.medrxiv.org/content/10.1101/2020.12.30.20249034v2) for further details). We project that N501Y will reach a frequency of 82% (50% confidence interval, CI (shaded area): 73%-89%; 90% CI (dashed lines): 53%-95%) by 1 March 2021.
 
