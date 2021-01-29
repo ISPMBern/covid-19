@@ -8,14 +8,19 @@ Here, we aim at tracking the spread of these variants in the Swiss canton of Gen
 
 ![](figures/variants_GE.png)
 
-The proportion of N501Y variants rapidly increases in Geneva. Due to the delay from infection to sample collection, the shown increase reflects the epidemiological situation from one to two weeks ago. Fitting a logistic growth model to the data allows to describe the increase in the proportion of N501Y (see [Volz et al.](https://www.medrxiv.org/content/10.1101/2020.12.30.20249034v2) for further details). We project that N501Y will reach a frequency of 82% (50% confidence interval, CI (shaded area): 73%-89%; 90% CI (dashed lines): 53%-95%) by 1 March 2021.
+The proportion of N501Y variants rapidly increases in Geneva. Due to the delay from infection to sample collection, the shown increase reflects the epidemic situation from one to two weeks ago. Fitting a logistic growth model to the data allows to describe the increase in the proportion of N501Y (see [Volz et al.](https://www.medrxiv.org/content/10.1101/2020.12.30.20249034v2) for further details). We project that N501Y will reach a frequency of 82% (50% confidence interval, CI (shaded area): 73%-89%; 90% CI (dashed lines): 53%-95%) by 1 March 2021.
 
-Given that the effective reproduction number *R<sub>e</sub>* in Geneva was around 1 during December 2020 and January 2021 ([https://ibz-shiny.ethz.ch/covid-19-re-international/](https://ibz-shiny.ethz.ch/covid-19-re-international/)), we estimate a 33% (95% CI: 15%-56%) and 47% (95% CI: 21%-78%) increased transmissibility of N501Y variants compared to previously circulating variants, assuming a generation time of 5 and 7 days, respectively. These estimates are slighly lower than earlier findings for B.1.1.7 in the UK ([Volz et al.](https://www.medrxiv.org/content/10.1101/2020.12.30.20249034v2), [Davies et al.](https://cmmid.github.io/topics/covid19/uk-novel-variant.html), [Leung et al.](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.26.1.2002106)). The further spread of N501Y will also depend on the overall epidemic dynamics of SARS-CoV-2 in Geneva.
+Given that the effective reproduction number *R<sub>e</sub>* in Geneva was around 1 during December 2020 and January 2021 ([https://ibz-shiny.ethz.ch/covid-19-re-international/](https://ibz-shiny.ethz.ch/covid-19-re-international/)), we estimate a 33% (95% CI: 15%-56%) and 47% (95% CI: 21%-78%) increased transmissibility of N501Y variants compared to previously circulating variants, assuming a generation time of 5 and 7 days, respectively. While these estimates are somewhat lower than earlier findings for B.1.1.7 in the UK ([Volz et al.](https://www.medrxiv.org/content/10.1101/2020.12.30.20249034v2), [Davies et al.](https://cmmid.github.io/topics/covid19/uk-novel-variant.html), [Leung et al.](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.26.1.2002106)), the increased transmissibility underlines the necessity of strict control measures in order to prevent an increase in SARS-CoV-2 incidence in Geneva and the rest of Switzerland.
 
-## Contributors:
+## Contributors
 
 - Martina Reichmuth, Emma Hodcroft, Julien Riou, Christian L. Althaus, [Institute of Social and Preventive Medicine](https://www.ispm.unibe.ch), University of Bern, Bern, Switzerland
 
 - Manuel Schibler, Isabella Eckerle, Laurent Kaiser, [Geneva University Hospitals](https://www.hug.ch/en/), Geneva, Switzerland
 
 - Richard Neher, [Biozentrum](https://www.biozentrum.unibas.ch/research/researchgroups/overview/unit/neher/), University of Basel, Basel, Switzerland
+
+## Funding
+
+- European Union’s Horizon 2020 research and innovation programme - project [EpiPose](https://www.uhasselt.be/UH/DSI/Research/DSI-covid-19-en/H2020-Epipose-project-on-COVID-19) (No 101003688)
+- Swiss National Science Foundation (grant [196046](https://data.snf.ch/covid-19/snsf/196046))
