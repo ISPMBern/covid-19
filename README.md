@@ -19,9 +19,9 @@ During this international public health emergency, the Institute of Social and P
 ## Projects
 ### Ongoing
 * [EpiPose -  Epidemic intelligence to minimize 2019-nCoV’s public health, economic and social impact in Europe](https://www.uhasselt.be/UH/DSI/Research/DSI-covid-19-en/H2020-Epipose-project-on-COVID-19)
-  + [Transmission of SARS-CoV-2 variants in Switzerland](variants/)
+  + [Transmission of SARS-CoV-2 variants in Switzerland](https://ispmbern.github.io/covid-19/variants/)
   + [Living Evidence on COVID-19](living-review/)
-  + [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](swiss-epidemic-model/)
+  + [Real-time modeling and projections of the COVID-19 epidemic in Switzerland](https://ispmbern.github.io/covid-19/swiss-epidemic-model/)
 * [Tracking the COVID-19 epidemic in Switzerland: phylogenetics and epidemiological modeling](https://data.snf.ch/covid-19/snsf/196046)
 * [MHCOVID - Mental Health COVID](https://mhcovid.ispm.unibe.ch)
 * Assessing Critical Health Literacy in the Covid-19 pandemic - An empirical study using data from 4 Swiss univeristies (as part of the COVID-19 International Student Well-being Study).
@@ -37,8 +37,8 @@ See [here](https://www.ispm.unibe.ch/research/publications/index_eng.html).
 ## Swiss National COVID-19 Science Task Force
 Several researchers of the Institute of Social and Preventive Medicine are or have been members of the [Swiss National COVID-19 Science Task Force](https://sciencetaskforce.ch) that assists the authorities in overcoming the COVID-19 crisis:
 
-* [Prof. Dr. Nicola Low](https://www.ispm.unibe.ch/about_us/staff/low_nicola/index_eng.html), Chair of Expert Group on Public Health
-* [Prof. Dr. Matthias Egger](https://www.ispm.unibe.ch/about_us/staff/egger_matthias/index_eng.html), previous President
+* [Prof. Dr. Nicola Low](https://www.ispm.unibe.ch/about_us/staff/low_nicola/index_eng.html), Expert Group on Public Health
+* [Prof. Dr. Matthias Egger](https://www.ispm.unibe.ch/about_us/staff/egger_matthias/index_eng.html), previous Chair
 * [PD Dr. Christian L. Althaus](https://www.ispm.unibe.ch/about_us/staff/althaus_christian/index_eng.html), previous member of Expert Group on Data and Modelling
 
 ## Links to other resources
