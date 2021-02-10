@@ -57,9 +57,7 @@ The Institute of Social and Preventive Medicine at the University of Bern conduc
 ## Swiss National COVID-19 Science Task Force
 Several researchers of the Institute of Social and Preventive Medicine are members of the [Swiss National COVID-19 Science Task Force](https://ncs-tf.ch/de/) that assists the authorities in overcoming the COVID-19 crisis:
 
-* [Prof. Dr. Matthias Egger](https://www.ispm.unibe.ch/about_us/staff/egger_matthias/index_eng.html), Chair
 * [Prof. Dr. Nicola Low](https://www.ispm.unibe.ch/about_us/staff/low_nicola/index_eng.html), Expert Group on Public Health
-* [PD Dr. Christian L. Althaus](https://www.ispm.unibe.ch/about_us/staff/althaus_christian/index_eng.html), Expert Group on Data and Modelling
 
 ## Links to other resources
 ### Related to Switzerland
