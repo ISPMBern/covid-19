@@ -25,7 +25,7 @@ The Institute of Social and Preventive Medicine at the University of Bern conduc
   + [Living Evidence on COVID-19](living-review/)
 * [Tracking the COVID-19 epidemic in Switzerland: phylogenetics and epidemiological modeling](https://data.snf.ch/covid-19/snsf/196046)
 * Assessing Critical Health Literacy in the Covid-19 pandemic - An empirical study using data from 4 Swiss univeristies (as part of the multi-national Covid-19 International Student Well-being Study.
-* [COVID-19 reports by ISPM](reports/)
+* [COVID-19 reports by ISPM 2020](reports/)
 
 ### Completed
 * [Estimating case fatality ratio of COVID-19 from observed cases outside China](https://github.com/calthaus/ncov-cfr)
