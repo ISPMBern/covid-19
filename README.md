@@ -10,6 +10,8 @@
 [![](https://zika.ispm.unibe.ch/COVID19/DailyImage.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
 
 [![](https://zika.ispm.unibe.ch/COVID19/AsymptomaticStatusDailyImage.png)](https://zika.ispm.unibe.ch/COVID19/statusAsymp.html)
+* [CROWD](reports/crowd/)
+
 
 ## About
 On 31 December 2019, the World Health Organization was notified about a cluster of pneumonia of unknown origin in the city of Wuhan, China. Chinese authorities later identified a novel coronavirus (SARS-CoV-2) as the causative agent of the outbreak.
