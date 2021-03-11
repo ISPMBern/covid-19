@@ -4,4 +4,4 @@
 
 ## Meet the review team
 
-<img src="https://zika.ispm.unibe.ch/COVID19/crowdCapture.PNG" alt="Team2">
+<img src="https://zika.ispm.unibe.ch/COVID19/collageasymptomatics.jpg" alt="Team2">
