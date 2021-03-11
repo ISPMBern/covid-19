@@ -10,7 +10,7 @@
 [![](https://zika.ispm.unibe.ch/COVID19/DailyImage.png)](https://zika.ispm.unibe.ch/assets/data/pub/search_beta/)
 
 [![](https://zika.ispm.unibe.ch/COVID19/AsymptomaticStatusDailyImage.png)](https://zika.ispm.unibe.ch/COVID19/statusAsymp.html)
-* [Meet the review team](crowd/)
+* [Meet our review team](crowd/)
 
 
 ## About
