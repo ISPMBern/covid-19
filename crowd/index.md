@@ -2,6 +2,6 @@
 # Proportion of asymptomatic SARS-CoV-2 infections: a living systematic review
 
 
-## Meet the review team
+## Meet our review team
 
 <img src="https://zika.ispm.unibe.ch/COVID19/collageasymptomatics.jpg" alt="Team2">
