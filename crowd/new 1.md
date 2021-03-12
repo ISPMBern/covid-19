@@ -2,11 +2,9 @@
 
 | Ingrid Arevalo-Rodriguez, | Ivan Zhelyaskov, | Shabnam Thapa, | Nirmala Prajapati, | Xueting Qiu  |
 |------------------|----------------------------------|-----------------|-----------------|-----------------|
-| William Robles,  | Nicola Low, Univeristy of Bern   | Hira Imeri, Univeristy of Bern    | Aziz Mert Ipekci, University of Bern | Kaspar Meili, |
-|------------------|----------------|-----------------|-----------------|-----------------|
-| | 1067/1075      | 23              | 8/1075          | 2/1075          |
-|------------------|----------------|-----------------|-----------------|-----------------|
-|   | 1071/1075      | 12              | 4/1075          | 2/1075          |
-|------------------|----------------|-----------------|-----------------|-----------------|
-|   |       | Diana Buitrago-Garcia, University of Bern | 2/1075  |
+| William Robles,  | Nicola Low, Univeristy of Bern   | Hira Imeri, Univeristy of Bern    | Aziz Mert Ipekci, University of Bern | Kaspar Meili,        |
+|------------------|----------------|-----------------|-----------------|-----------------|--------------------------------------|----------------------|
+| Muge Cevik, | Georgia Salanti, Univeristy of Bern   | Leonie Heron, University of Bern  | Michel Counotte, Wageningen Bioveterinary Research   | Stephanie Hossman, Univeristy of Bern |           |
+|------------------|----------------|-----------------|-----------------|-----------------|------------------------------------------------------|---------------------------------------|
+| Dianne Egli-Gany,  | Eric Meyerowitz,      | Diana Buitrago-Garcia, University of Bern | Aaron Richterman, |
 |------------------|----------------|-----------------|-----------------|-----------------|
