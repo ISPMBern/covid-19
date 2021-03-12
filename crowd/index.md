@@ -9,6 +9,5 @@
 
 ## About our team
 
-| Ingrid Arevalo-Rodriguez                           | Ivan Zhelyaskov                          | Shabnam Thapa                            | Nirmala Prajapati                                        | Xueting Qiu                                                    |
-| Hospital Universitario Ramon y Cajal-Madrid, Spain | Univeristy of Manchester, United Kingdom | Univeristy of Manchester, United Kingdom | Ecole des Hautes Etudes en Sante Publique-Rennes, France | Harvard TH Chan School of Public Health- Boston, United States |
-|----------------------------------------------------|------------------------------------------|------------------------------------------|----------------------------------------------------------|----------------------------------------------------------------|
+| Ingrid Arevalo-Rodriguez; Hospital Universitario Ramon y Cajal-Madrid, Spain | Ivan Zhelyaskov; Univeristy of Manchester, United Kingdom | Shabnam Thapa; Univeristy of Manchester, United Kingdom | Nirmala Prajapati; Ecole des Hautes Etudes en Sante Publique-Rennes, France | Xueting Qiu; Harvard TH Chan School of Public Health- Boston, United States |
+|------------------------------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
