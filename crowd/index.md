@@ -11,23 +11,23 @@
 
 |          Name            |                Affiliation                                             |
 |--------------------------|------------------------------------------------------------------------|
-| Ingrid Arevalo-Rodriguez | Hospital Universitario Ramon y Cajal-Madrid, Spain                     |
-| Ivan Zhelyaskov          |                                                                        |
+| Ingrid Arevalo-Rodriguez | Hospital Universitario Ramon y Cajal, Spain                            |
+| Ivan Zhelyaskov          | University of Sheffield, England                                       |  
 | Shabnam Thapa            | Univeristy of Manchester, United Kingdom                               |
-| Nirmala Prajapati        | Ecole des Hautes Etudes en Sante Publique-Rennes, France               | 
-| Xueting Qiu              | Harvard TH Chan School of Public Health- Boston, United States         |
-| William Robles           | Fundacion Universitaria de Ciencias de la Salud FUCS- Bogota, Colombia |
+| Nirmala Prajapati        | Ecole des Hautes Etudes en Sante Publique, France                      | 
+| Xueting Qiu              | Harvard TH Chan School of Public Health, United States                 |
+| William Robles           | Fundacion Universitaria de Ciencias de la Salud FUCS, Colombia         |
 | Nicola Low               | Univeristy of Bern, Switzerland                                        | 
 | Hira Imeri               | Univeristy of Bern, Switzerland                                        |
 | Aziz Mert Ipekci         | Univeristy of Bern, Switzerland                                        |
-| Kaspar Meili             | Umea University - Umea, Sweden                                          |
-| Muge Cevik               | Univeristy of St Anrdrews                                              |
+| Kaspar Meili             | Umea University, Sweden                                                |
+| Muge Cevik               | Univeristy of St Andrews                                               |
 | Georgia Salanti          | Univeristy of Bern, Switzerland                                        |
 | Leonie Heron             | University of Bern, Switzerland                                        |
-| Michel Counotte          | Wageningen Bioveterinary Research, Netherlands                         | 
+| Michel Counotte          | University of Bern, Switzerland                                        | 
 | Stephanie Hossman        | Univeristy of Bern, Switzerland                                        |
-| Dianne Egli-Gany         | ICON plc, Switzerland                                                  |
-| Eric Meyerowitz          | Montefiore Medical Center-New York, United States                      |
+| Dianne Egli-Gany         | University of Bern, Switzerland                                        |
+| Eric Meyerowitz          | Montefiore Medical Center, United States                               |
 | Diana Buitrago-Garcia    | University of Bern, Switzerland                                        |
-| Aaron Richterman         | Penn Medicine, United States                                           |
+| Aaron Richterman         | University of Pennsylvania, United States                              |
 | Ali Ihsan Nergiz         | Istanbul University-Cerrahpasa, Turkey                                 |
