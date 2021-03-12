@@ -5,3 +5,6 @@
 ## Meet our review team
 
 <img src="https://zika.ispm.unibe.ch/COVID19/collageasymptomatics.jpg" alt="Team2">
+
+
+## About our team
