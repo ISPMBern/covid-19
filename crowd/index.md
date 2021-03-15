@@ -11,16 +11,16 @@
 
 |          Name            |                Affiliation                                             |
 |--------------------------|------------------------------------------------------------------------|
-| Ingrid Arevalo-Rodriguez | Hospital Universitario Ramon y Cajal, Spain                            |
-| Ivan Zhelyaskov          | University of Sheffield, England                                       |  
+| Ingrid Arevalo-Rodriguez | Hospital Universitario Ramón y Cajal, Spain                            |
+| Ivan Zhelyaskov          | National Institution Health, England                                   |  
 | Shabnam Thapa            | Univeristy of Manchester, England                                      |
 | Nirmala Prajapati        | Ecole des Hautes Etudes en Sante Publique, France                      | 
 | Xueting Qiu              | Harvard TH Chan School of Public Health, United States                 |
-| William Robles           | Fundacion Universitaria de Ciencias de la Salud FUCS, Colombia         |
+| William Robles           | Fundación Universitaria de Ciencias de la Salud FUCS, Colombia         |
 | Nicola Low               | Univeristy of Bern, Switzerland                                        | 
 | Hira Imeri               | Univeristy of Bern, Switzerland                                        |
 | Aziz Mert Ipekci         | Univeristy of Bern, Switzerland                                        |
-| Kaspar Meili             | Umea University, Sweden                                                |
+| Kaspar Meili             | Umeå University, Sweden                                                |
 | Muge Cevik               | Univeristy of St Andrews, England                                      |
 | Georgia Salanti          | Univeristy of Bern, Switzerland                                        |
 | Leonie Heron             | University of Bern, Switzerland                                        |
