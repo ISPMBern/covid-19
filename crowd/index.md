@@ -9,6 +9,8 @@
 
 ## About our team
 
+Here are the names and affiliations of the team, corresponding to the rows of photos above from left to right. 
+
 |          Name            |                Affiliation                                             |
 |--------------------------|------------------------------------------------------------------------|
 | Ingrid Arevalo-Rodriguez | Hospital Universitario Ramón y Cajal, Spain                            |
